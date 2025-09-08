@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 interface TestimonialCardProps {
   text: string;
@@ -58,7 +58,7 @@ export default function TestimonialsSection() {
 
   const maxStartIndex = Math.max(0, testimonials.length - 3);
   
-  const nextTestimonial = () => {
+  const nextTestimonial = useCallback(() => {
     if (isAnimating) return;
     
     setIsAnimating(true);
@@ -67,7 +67,7 @@ export default function TestimonialsSection() {
     );
     
     setTimeout(() => setIsAnimating(false), 500);
-  };
+  }, [isAnimating, maxStartIndex]);
 
   const goToIndex = (index: number) => {
     if (isAnimating || index === currentIndex) return;
