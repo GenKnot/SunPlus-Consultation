@@ -10,6 +10,9 @@ interface ButtonProps {
   variant?: 'primary' | 'secondary';
   size?: 'sm' | 'md' | 'lg';
   className?: string;
+  style?: React.CSSProperties;
+  onMouseEnter?: (e: React.MouseEvent<HTMLElement>) => void;
+  onMouseLeave?: (e: React.MouseEvent<HTMLElement>) => void;
 }
 
 export default function Button({ 
@@ -18,7 +21,10 @@ export default function Button({
   onClick, 
   variant = 'primary', 
   size = 'md',
-  className = '' 
+  className = '',
+  style,
+  onMouseEnter,
+  onMouseLeave
 }: ButtonProps) {
   const baseClasses = 'font-medium transition-colors inline-block text-center rounded-md';
   
@@ -35,29 +41,34 @@ export default function Button({
   
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
   
-  const primaryStyle = variant === 'primary' ? {
-    backgroundColor: BRAND_COLORS.secondary,
-    ':hover': {
-      backgroundColor: BRAND_COLORS.secondaryHover
+
+  const buttonStyle = {
+    ...(variant === 'primary' ? {backgroundColor: BRAND_COLORS.secondary} : {}),
+    ...style
+  };
+
+  const handleMouseEnter = (e: React.MouseEvent<HTMLElement>) => {
+    if (variant === 'primary') {
+      e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
     }
-  } : {};
+    onMouseEnter?.(e);
+  };
+
+  const handleMouseLeave = (e: React.MouseEvent<HTMLElement>) => {
+    if (variant === 'primary') {
+      e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
+    }
+    onMouseLeave?.(e);
+  };
 
   if (href) {
     return (
       <a 
         href={href} 
         className={classes}
-        style={variant === 'primary' ? {backgroundColor: BRAND_COLORS.secondary} : {}}
-        onMouseEnter={(e) => {
-          if (variant === 'primary') {
-            e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
-          }
-        }}
-        onMouseLeave={(e) => {
-          if (variant === 'primary') {
-            e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
-          }
-        }}
+        style={buttonStyle}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
       >
         {children}
       </a>
@@ -68,17 +79,9 @@ export default function Button({
     <button 
       onClick={onClick} 
       className={classes}
-      style={variant === 'primary' ? {backgroundColor: BRAND_COLORS.secondary} : {}}
-      onMouseEnter={(e) => {
-        if (variant === 'primary') {
-          e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
-        }
-      }}
-      onMouseLeave={(e) => {
-        if (variant === 'primary') {
-          e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
-        }
-      }}
+      style={buttonStyle}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       {children}
     </button>
