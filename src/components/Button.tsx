@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface ButtonProps {
   children: React.ReactNode;
@@ -20,7 +23,7 @@ export default function Button({
   const baseClasses = 'font-medium transition-colors inline-block text-center rounded-md';
   
   const variantClasses = {
-    primary: 'bg-orange-600 hover:bg-orange-700 text-white',
+    primary: 'text-white',
     secondary: 'bg-gray-200 hover:bg-gray-300 text-gray-900'
   };
   
@@ -32,16 +35,51 @@ export default function Button({
   
   const classes = `${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
   
+  const primaryStyle = variant === 'primary' ? {
+    backgroundColor: BRAND_COLORS.secondary,
+    ':hover': {
+      backgroundColor: BRAND_COLORS.secondaryHover
+    }
+  } : {};
+
   if (href) {
     return (
-      <a href={href} className={classes}>
+      <a 
+        href={href} 
+        className={classes}
+        style={variant === 'primary' ? {backgroundColor: BRAND_COLORS.secondary} : {}}
+        onMouseEnter={(e) => {
+          if (variant === 'primary') {
+            e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
+          }
+        }}
+        onMouseLeave={(e) => {
+          if (variant === 'primary') {
+            e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
+          }
+        }}
+      >
         {children}
       </a>
     );
   }
   
   return (
-    <button onClick={onClick} className={classes}>
+    <button 
+      onClick={onClick} 
+      className={classes}
+      style={variant === 'primary' ? {backgroundColor: BRAND_COLORS.secondary} : {}}
+      onMouseEnter={(e) => {
+        if (variant === 'primary') {
+          e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
+        }
+      }}
+      onMouseLeave={(e) => {
+        if (variant === 'primary') {
+          e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
+        }
+      }}
+    >
       {children}
     </button>
   );

@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
+import { BRAND_COLORS } from '../lib/colors';
 
 export default function CompanySection() {
   return (
@@ -17,7 +20,7 @@ export default function CompanySection() {
                   priority
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-[#CC4C3D] rounded-2xl flex items-center justify-center">
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-2xl flex items-center justify-center" style={{backgroundColor: BRAND_COLORS.secondary}}>
                 <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
@@ -36,7 +39,7 @@ export default function CompanySection() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-[#CC4C3D] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -50,7 +53,7 @@ export default function CompanySection() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-[#CC4C3D] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -64,7 +67,7 @@ export default function CompanySection() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-[#CC4C3D] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -78,7 +81,7 @@ export default function CompanySection() {
                 </div>
                 
                 <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 bg-[#CC4C3D] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
@@ -94,22 +97,29 @@ export default function CompanySection() {
               
               <div className="grid grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#CC4C3D] mb-2">100+</div>
+                  <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>100+</div>
                   <div className="text-sm text-gray-600">Projects Completed</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#CC4C3D] mb-2">50+</div>
+                  <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>50+</div>
                   <div className="text-sm text-gray-600">Happy Clients</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#CC4C3D] mb-2">5+</div>
+                  <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>5+</div>
                   <div className="text-sm text-gray-600">Years Experience</div>
                 </div>
               </div>
               
               <a
                 href="#contact"
-                className="inline-flex items-center px-8 py-4 bg-[#CC4C3D] text-white font-semibold rounded-xl hover:bg-[#CC4C3D]/90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                className="inline-flex items-center px-8 py-4 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                style={{backgroundColor: BRAND_COLORS.secondary}}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
+                }}
               >
                 Work With Us
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

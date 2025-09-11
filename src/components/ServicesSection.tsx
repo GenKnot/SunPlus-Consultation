@@ -1,5 +1,8 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface ServiceCardProps {
   image: string;
@@ -10,7 +13,16 @@ interface ServiceCardProps {
 
 function ServiceCard({ image, title, description, features }: ServiceCardProps) {
   return (
-    <div className="group relative bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-transparent hover:border-[#CC4C3D] flex flex-col h-full transform hover:-translate-y-2">
+    <div className="group relative bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 border-2 border-transparent flex flex-col h-full transform hover:-translate-y-2"
+         style={{
+           '--hover-border-color': BRAND_COLORS.secondary
+         } as React.CSSProperties}
+         onMouseEnter={(e) => {
+           e.currentTarget.style.borderColor = BRAND_COLORS.secondary;
+         }}
+         onMouseLeave={(e) => {
+           e.currentTarget.style.borderColor = 'transparent';
+         }}>
       <div className="w-full h-56 overflow-hidden relative">
         <Image 
           src={image} 
@@ -18,18 +30,28 @@ function ServiceCard({ image, title, description, features }: ServiceCardProps) 
           fill
           className="object-cover group-hover:scale-110 transition-transform duration-700"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#CC4C3D]/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+             style={{
+               background: `linear-gradient(to top, ${BRAND_COLORS.secondary}20, transparent)`
+             }}></div>
       </div>
       
       <div className="p-8 flex-1 flex flex-col">
-        <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center group-hover:text-[#CC4C3D] transition-colors duration-300">{title}</h3>
+        <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center transition-colors duration-300"
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = BRAND_COLORS.secondary;
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = '#111827';
+            }}>{title}</h3>
         
         <p className="text-gray-600 text-center mb-8 leading-relaxed flex-1 text-base">{description}</p>
         
         <ul className="space-y-4 mt-auto">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center text-sm text-gray-700 group-hover:text-gray-900 transition-colors duration-300">
-              <div className="w-3 h-3 bg-[#CC4C3D] rounded-full mr-4 flex-shrink-0 group-hover:bg-[#CC4C3D]/80 transition-colors duration-300"></div>
+              <div className="w-3 h-3 rounded-full mr-4 flex-shrink-0 transition-colors duration-300"
+                   style={{backgroundColor: BRAND_COLORS.secondary}}></div>
               <span className="font-medium">{feature}</span>
             </li>
           ))}
@@ -93,7 +115,7 @@ export default function ServicesSection() {
 
   return (
     <div id="services" className="relative">
-      <div className="w-full h-64 primary-bg flex items-center justify-center">
+      <div className="w-full h-64 flex items-center justify-center" style={{backgroundColor: BRAND_COLORS.primary}}>
         <div className="text-center text-white">
           <h2 className="text-5xl font-bold mb-6">What We Do Best</h2>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
@@ -102,7 +124,7 @@ export default function ServicesSection() {
         </div>
       </div>
       
-      <div className="py-20" style={{backgroundColor: 'rgba(204, 76, 61, 0.05)'}}>
+      <div className="py-20" style={{backgroundColor: `${BRAND_COLORS.primary}10`}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service) => (

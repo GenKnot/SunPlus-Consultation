@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface TestimonialCardProps {
   text: string;
@@ -94,14 +95,14 @@ export default function TestimonialsSection() {
   const currentTestimonials = getCurrentTestimonials();
 
   return (
-    <div id="testimonials" className="py-16 primary-bg">
+    <div id="testimonials" className="py-16" style={{backgroundColor: BRAND_COLORS.primary}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-4 gap-12 items-start">
           <div className="lg:col-span-1">
             <h2 className="text-4xl font-bold text-white mb-6 leading-tight">
               Trusted by 100+ Growing Businesses
             </h2>
-            <p className="text-primary-100 text-lg">
+            <p className="text-white/90 text-lg">
               We&apos;re proud to be the go-to partner for small to medium-sized businesses seeking comprehensive solutions.
             </p>
           </div>

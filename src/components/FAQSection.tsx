@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface FAQItem {
   id: number;
@@ -15,11 +16,17 @@ function FAQItem({ faq, isOpen, onToggle }: { faq: FAQItem; isOpen: boolean; onT
         onClick={onToggle}
         className="w-full px-6 py-4 text-left bg-white hover:bg-gray-50 transition-colors duration-300 flex justify-between items-center group"
       >
-        <h3 className="text-lg font-semibold text-gray-900 group-hover:text-[#CC4C3D] transition-colors duration-300">
+        <h3 className="text-lg font-semibold text-gray-900 transition-colors duration-300"
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = BRAND_COLORS.secondary;
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = '#111827';
+            }}>
           {faq.question}
         </h3>
         <div className={`ml-4 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
-          <svg className="w-5 h-5 text-[#CC4C3D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" style={{color: BRAND_COLORS.secondary}}>
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </div>
@@ -129,7 +136,14 @@ export default function FAQSection() {
             </p>
             <a
               href="#contact"
-              className="inline-flex items-center px-8 py-3 bg-[#CC4C3D] text-white font-semibold rounded-lg hover:bg-[#CC4C3D]/90 transition-colors duration-300"
+              className="inline-flex items-center px-8 py-3 text-white font-semibold rounded-lg transition-colors duration-300"
+              style={{backgroundColor: BRAND_COLORS.secondary}}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = BRAND_COLORS.secondaryHover;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
+              }}
             >
               Contact Us Today
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

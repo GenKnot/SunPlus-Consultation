@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Button from './Button';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface NavItem {
   label: string;
@@ -75,7 +76,13 @@ export default function Header() {
                       onMouseEnter={() => setActiveDropdown(item.label)}
                       onMouseLeave={() => setActiveDropdown(null)}
                     >
-                      <button className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center">
+                      <button className="text-gray-700 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.color = BRAND_COLORS.secondary;
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.color = '#374151';
+                              }}>
                         {item.label}
                         <svg className="ml-1 w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -88,7 +95,15 @@ export default function Header() {
                             <a
                               key={dropdownItem.href}
                               href={dropdownItem.href}
-                              className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary-50 hover:text-primary-600 transition-colors duration-200"
+                              className="block px-4 py-2 text-sm text-gray-700 transition-colors duration-200"
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.backgroundColor = `${BRAND_COLORS.primary}10`;
+                                e.currentTarget.style.color = BRAND_COLORS.secondary;
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.backgroundColor = 'transparent';
+                                e.currentTarget.style.color = '#374151';
+                              }}
                             >
                               {dropdownItem.label}
                             </a>
@@ -99,7 +114,13 @@ export default function Header() {
                   ) : (
                     <a
                       href={item.href}
-                      className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                      className="text-gray-700 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = BRAND_COLORS.secondary;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = '#374151';
+                      }}
                     >
                       {item.label}
                     </a>
@@ -110,7 +131,7 @@ export default function Header() {
           </div>
 
           <div className="hidden lg:block">
-            <Button href="#contact" size="sm" className="primary-bg primary-hover text-white">
+            <Button href="#contact" size="sm" className="text-white">
               Get Started
             </Button>
           </div>
@@ -118,7 +139,13 @@ export default function Header() {
           <div className="lg:hidden">
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="text-gray-700 hover:text-primary-600 p-2"
+              className="text-gray-700 p-2"
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = BRAND_COLORS.secondary;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = '#374151';
+              }}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
@@ -136,7 +163,15 @@ export default function Header() {
                     <div>
                       <button
                         onClick={() => handleDropdownToggle(item.label)}
-                        className="w-full text-left px-3 py-2 text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-primary-50 rounded-md transition-colors duration-200 flex items-center justify-between"
+                        className="w-full text-left px-3 py-2 text-base font-medium text-gray-700 rounded-md transition-colors duration-200 flex items-center justify-between"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = BRAND_COLORS.secondary;
+                          e.currentTarget.style.backgroundColor = `${BRAND_COLORS.primary}10`;
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#374151';
+                          e.currentTarget.style.backgroundColor = 'transparent';
+                        }}
                       >
                         {item.label}
                         <svg className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.label ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -149,7 +184,15 @@ export default function Header() {
                             <a
                               key={dropdownItem.href}
                               href={dropdownItem.href}
-                              className="block px-3 py-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-primary-50 rounded-md transition-colors duration-200"
+                              className="block px-3 py-2 text-sm text-gray-600 rounded-md transition-colors duration-200"
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.color = BRAND_COLORS.secondary;
+                                e.currentTarget.style.backgroundColor = `${BRAND_COLORS.primary}10`;
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.color = '#6b7280';
+                                e.currentTarget.style.backgroundColor = 'transparent';
+                              }}
                             >
                               {dropdownItem.label}
                             </a>
@@ -160,7 +203,15 @@ export default function Header() {
                   ) : (
                     <a
                       href={item.href}
-                      className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-primary-50 rounded-md transition-colors duration-200"
+                      className="block px-3 py-2 text-base font-medium text-gray-700 rounded-md transition-colors duration-200"
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = BRAND_COLORS.secondary;
+                        e.currentTarget.style.backgroundColor = `${BRAND_COLORS.primary}10`;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = '#374151';
+                        e.currentTarget.style.backgroundColor = 'transparent';
+                      }}
                     >
                       {item.label}
                     </a>
@@ -168,7 +219,7 @@ export default function Header() {
                 </div>
               ))}
               <div className="pt-4">
-                <Button href="#contact" size="sm" className="w-full primary-bg primary-hover text-white">
+                <Button href="#contact" size="sm" className="w-full text-white">
                   Get Started
                 </Button>
               </div>

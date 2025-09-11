@@ -1,4 +1,7 @@
+'use client';
+
 import React from 'react';
+import { BRAND_COLORS } from '../lib/colors';
 
 interface FeatureProps {
   icon: React.ReactNode;
@@ -9,10 +12,19 @@ interface FeatureProps {
 function FeatureCard({ icon, title, description }: FeatureProps) {
   return (
     <div className="group text-center p-8 rounded-2xl bg-white hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-gray-100">
-      <div className="w-16 h-16 bg-gradient-to-br from-[#CC4C3D] to-[#CC4C3D]/80 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+      <div className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
+           style={{
+             background: `linear-gradient(135deg, ${BRAND_COLORS.secondary}, ${BRAND_COLORS.secondaryHover})`
+           }}>
         {icon}
       </div>
-      <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#CC4C3D] transition-colors duration-300">
+      <h3 className="text-xl font-bold text-gray-900 mb-4 transition-colors duration-300"
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = BRAND_COLORS.secondary;
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = '#111827';
+          }}>
         {title}
       </h3>
       <p className="text-gray-600 leading-relaxed">

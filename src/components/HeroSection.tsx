@@ -1,10 +1,11 @@
 import React from 'react';
 import Button from './Button';
 import Image from 'next/image';
+import { BRAND_COLORS } from '../lib/colors';
 
 export default function HeroSection() {
   return (
-    <div id="home" className="bg-white pt-16 lg:pt-20">
+    <div id="home" className="pt-16 lg:pt-20" style={{background: BRAND_COLORS.primaryGradient}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="order-1 lg:order-1 mb-8 lg:mb-0 w-[95%] mx-auto lg:w-full lg:mx-0">

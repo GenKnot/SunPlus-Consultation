@@ -1,6 +1,9 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import Button from './Button';
+import { BRAND_COLORS } from '../lib/colors';
 
 export default function AboutSection() {
   return (
@@ -17,7 +20,7 @@ export default function AboutSection() {
             />
           </div>
           
-          <div className="primary-bg py-4 lg:py-6 w-[95%] mx-auto lg:w-full lg:mx-0 rounded-b-2xl sm:rounded-b-3xl">
+          <div className="py-4 lg:py-6 w-[95%] mx-auto lg:w-full lg:mx-0 rounded-b-2xl sm:rounded-b-3xl" style={{backgroundColor: BRAND_COLORS.primary}}>
             <div className="px-4 sm:px-6 lg:px-8">
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white leading-tight font-serif mb-3">
                 Trusted by 100+ Growing Businesses
@@ -29,7 +32,16 @@ export default function AboutSection() {
               <Button 
                 href="#contact" 
                 size="lg" 
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary px-4 py-2 text-sm font-medium transition-all duration-300"
+                className="bg-transparent border-2 border-white text-white hover:bg-white px-4 py-2 text-sm font-medium transition-all duration-300"
+                style={{
+                  '--hover-text-color': BRAND_COLORS.primary
+                } as React.CSSProperties}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = BRAND_COLORS.primary;
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = 'white';
+                }}
               >
                 Get started now
               </Button>
