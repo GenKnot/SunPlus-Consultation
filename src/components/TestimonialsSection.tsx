@@ -32,12 +32,12 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       id: 1,
-      text: "Sunplus Finance Services transformed our business completely. Their website design and maintenance services gave us a professional online presence, while their IT leadership helped us modernize our systems. The CPA bookkeeping saved us thousands. Highly recommend!",
+      text: "SunPlus Finance Solution transformed our business completely. Their website design and maintenance services gave us a professional online presence, while their IT leadership helped us modernize our systems. The CPA bookkeeping saved us thousands. Highly recommend!",
       author: "— RETAIL STORE OWNER"
     },
     {
       id: 2,
-      text: "As a small business owner, I was struggling with finances and technology. Sunplus Finance Services&apos; comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
+      text: "As a small business owner, I was struggling with finances and technology. SunPlus Finance Solution&apos;s comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
       author: "— CONSULTING FIRM"
     },
     {

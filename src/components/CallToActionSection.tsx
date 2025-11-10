@@ -17,7 +17,7 @@ export default function CallToActionSection() {
             Ready to Grow Your Business?
           </h2>
           <p className="text-xl text-white/90 mb-10 leading-relaxed">
-            From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance administrative support, we provide everything your small to medium-sized business needs to succeed. Let&apos;s discuss your project today.
+            From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance claims support, we provide everything your small to medium-sized business needs to succeed. Let&apos;s discuss your project today.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

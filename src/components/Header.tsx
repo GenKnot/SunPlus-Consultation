@@ -61,7 +61,7 @@ export default function Header() {
             </div>
             <div className="block">
               <h1 className="text-xs sm:text-sm md:text-base lg:text-lg font-bold text-gray-800">
-                Sunplus Finance Services Inc.
+                SunPlus Finance Solution Inc.
               </h1>
             </div>
           </div>

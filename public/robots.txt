@@ -1,0 +1,6 @@
+# robots.txt for SunPlus Finance Solution Inc.
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://sunplusfinance.com/sitemap.xml

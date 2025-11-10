@@ -62,7 +62,7 @@ export default function ContactSection() {
           </div>
           <h2 className="text-5xl font-bold text-gray-900 mb-6">Let&apos;s Grow Your Business Together</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to take your business to the next level? From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance administrative support, we&apos;re here to help you succeed.
+            Ready to take your business to the next level? From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance claims support, we&apos;re here to help you succeed.
           </p>
         </div>
 

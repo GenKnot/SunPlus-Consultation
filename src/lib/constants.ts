@@ -1,5 +1,5 @@
 export const COMPANY_INFO = {
-  name: 'Sunplus Finance Services Inc.',
+  name: 'SunPlus Finance Solution Inc.',
   email: 'info@sunplusfinance.com',
   phone: '+1 (555) 123-4567',
   businessHours: {

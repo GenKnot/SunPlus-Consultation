@@ -110,6 +110,18 @@ export default function ServicesSection() {
         'Growth strategy planning'
       ],
       image: '/Images/s-4.png'
+    },
+    {
+      id: 5,
+      title: 'Claims Support',
+      description: 'Navigate insurance claims with confidence. We handle the paperwork, follow-ups, and negotiations to maximize your coverage benefits.',
+      features: [
+        'Claim documentation & filing',
+        'Insurance company liaison',
+        'Settlement negotiation',
+        'Appeal & dispute resolution'
+      ],
+      image: '/Images/s-5.webp'
     }
   ];
 
@@ -119,15 +131,29 @@ export default function ServicesSection() {
         <div className="text-center text-white">
           <h2 className="text-5xl font-bold mb-6">What We Do Best</h2>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            Four specialized services that work together to transform your business operations and drive growth
+            Five specialized services that work together to transform your business operations and drive growth
           </p>
         </div>
       </div>
       
-      <div className="py-20" style={{backgroundColor: `${BRAND_COLORS.primary}10`}}>
+      <div className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.map((service) => (
+          {/* First row - 3 services */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+            {services.slice(0, 3).map((service) => (
+              <ServiceCard
+                key={service.id}
+                image={service.image}
+                title={service.title}
+                description={service.description}
+                features={service.features}
+              />
+            ))}
+          </div>
+          
+          {/* Second row - 2 services centered */}
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {services.slice(3, 5).map((service) => (
               <ServiceCard
                 key={service.id}
                 image={service.image}

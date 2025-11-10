@@ -47,8 +47,8 @@ export default function FAQSection() {
   const faqs: FAQItem[] = [
     {
       id: 1,
-      question: "What business services does Sunplus Finance Services Inc. provide?",
-      answer: "We offer four core services: 1) Website design and maintenance, 2) IT leadership, 3) Finance bookkeeping and administrative with CPA expertise, and 4) Consultation services for administrative and management support specifically for small to medium-sized businesses."
+      question: "What business services does SunPlus Finance Solution Inc. provide?",
+      answer: "We offer five core services: 1) Website design and maintenance, 2) IT leadership, 3) Finance bookkeeping and administrative with CPA expertise, 4) Consultation services for administrative and management support, and 5) Insurance claims support for claims management and negotiation - all specifically designed for small to medium-sized businesses."
     },
     {
       id: 2,
@@ -78,7 +78,7 @@ export default function FAQSection() {
     {
       id: 7,
       question: "Can I get multiple services together?",
-      answer: "Absolutely! We encourage businesses to take advantage of our complete solution approach. Many clients use our website design and maintenance, IT leadership, finance bookkeeping, consultation services, and insurance administrative support together for comprehensive business support. This integrated approach often provides better results and cost savings."
+      answer: "Absolutely! We encourage businesses to take advantage of our complete solution approach. Many clients use our website design and maintenance, IT leadership, finance bookkeeping, consultation services, and insurance claims support together for comprehensive business support. This integrated approach often provides better results and cost savings."
     },
     {
       id: 8,
