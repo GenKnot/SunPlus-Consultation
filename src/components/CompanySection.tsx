@@ -45,9 +45,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Website Design & Maintenance</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Technology Solutions</h3>
                     <p className="text-gray-600">
-                      Professional websites with ongoing maintenance and support.
+                      Professional web design, IT leadership, and strategic technology guidance.
                     </p>
                   </div>
                 </div>
@@ -59,9 +59,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">IT Leadership</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Financial & Administrative Services</h3>
                     <p className="text-gray-600">
-                      Strategic technology guidance to optimize operations.
+                      CPA-certified bookkeeping, consultation, and administrative support.
                     </p>
                   </div>
                 </div>
@@ -73,37 +73,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Finance Bookkeeping & Administrative</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Specialized Compliance & Claims</h3>
                     <p className="text-gray-600">
-                      CPA-certified bookkeeping and financial reporting.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
-                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Consultation Services</h3>
-                    <p className="text-gray-600">
-                      Administrative and management support consultation.
-                    </p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start space-x-4">
-                  <div className="w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 mt-1" style={{backgroundColor: BRAND_COLORS.secondary}}>
-                    <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Insurance Administrative Support</h3>
-                    <p className="text-gray-600">
-                      Expert support for insurance claims and administrative processes.
+                      Healthcare regulatory compliance and insurance claims support.
                     </p>
                   </div>
                 </div>

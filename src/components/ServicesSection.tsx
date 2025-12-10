@@ -122,6 +122,18 @@ export default function ServicesSection() {
         'Appeal & dispute resolution'
       ],
       image: '/Images/s-5.webp'
+    },
+    {
+      id: 6,
+      title: 'Healthcare Compliance',
+      description: 'Launch and grow your healthcare practice with confidence. Expert guidance on regulatory requirements, clinic operations, and Health Canada compliance.',
+      features: [
+        'Health Canada regulatory compliance',
+        'Clinic setup & licensing support',
+        'Operational standards implementation',
+        'Practice growth consulting'
+      ],
+      image: '/Images/s-6.webp'
     }
   ];
 
@@ -131,7 +143,7 @@ export default function ServicesSection() {
         <div className="text-center text-white">
           <h2 className="text-5xl font-bold mb-6">What We Do Best</h2>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
-            Five specialized services that work together to transform your business operations and drive growth
+            Six specialized services that work together to transform your business operations and drive growth
           </p>
         </div>
       </div>
@@ -151,9 +163,9 @@ export default function ServicesSection() {
             ))}
           </div>
           
-          {/* Second row - 2 services centered */}
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {services.slice(3, 5).map((service) => (
+          {/* Second row - 3 services */}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {services.slice(3, 6).map((service) => (
               <ServiceCard
                 key={service.id}
                 image={service.image}

@@ -15,7 +15,7 @@ export default function HeroSection() {
             </h1>
             <p className="mt-6 sm:mt-8 text-lg sm:text-xl text-gray-600 leading-relaxed">
               Stop juggling multiple vendors. Get everything your business needs from one trusted partner: 
-              stunning websites, strategic IT guidance, CPA-certified bookkeeping, expert consultation, and insurance claims support.
+              stunning websites, strategic IT guidance, CPA-certified bookkeeping, expert consultation, healthcare compliance, and insurance claims support.
             </p>
             <div className="mt-8 sm:mt-10">
               <Button href="#contact" size="lg" className="primary-bg primary-hover text-white px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-lg w-full sm:w-auto">
