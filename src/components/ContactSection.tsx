@@ -1,10 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { COMPANY_INFO } from '../lib/constants';
 import { BRAND_COLORS } from '../lib/colors';
 
 export default function ContactSection() {
+  const t = useTranslations('contact');
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -74,9 +76,9 @@ export default function ContactSection() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg>
           </div>
-          <h2 className="text-5xl font-bold text-gray-900 mb-6">Let&apos;s Grow Your Business Together</h2>
+          <h2 className="text-5xl font-bold text-gray-900 mb-6">{t('title')}</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Ready to take your business to the next level? From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance claims support, we&apos;re here to help you succeed.
+            {t('subtitle')}
           </p>
         </div>
 
@@ -93,7 +95,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1">Email Us</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">{t('emailUs')}</h3>
                   <p className="text-gray-600">{COMPANY_INFO.email}</p>
                 </div>
               </div>
@@ -111,8 +113,8 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1">Visit Us</h3>
-                  <p className="text-gray-600">501-998 Boul. Saint-Laurent</p>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">{t('visitUs')}</h3>
+                  <p className="text-gray-600">{t('address')}</p>
                 </div>
               </div>
             </div>
@@ -128,11 +130,11 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1">Business Hours</h3>
+                  <h3 className="text-lg font-bold text-gray-900 mb-1">{t('businessHours')}</h3>
                   <div className="text-gray-600 space-y-1 text-sm">
-                    <p>{COMPANY_INFO.businessHours.weekdays}</p>
-                    <p>{COMPANY_INFO.businessHours.saturday}</p>
-                    <p>{COMPANY_INFO.businessHours.sunday}</p>
+                    <p>{t('hours.weekdays')}</p>
+                    <p>{t('hours.saturday')}</p>
+                    <p>{t('hours.sunday')}</p>
                   </div>
                 </div>
               </div>
@@ -142,8 +144,8 @@ export default function ContactSection() {
           <div className="lg:col-span-2">
             <div className="bg-white rounded-3xl p-10 shadow-2xl border border-gray-100">
               <div className="mb-8">
-                <h3 className="text-3xl font-bold text-gray-900 mb-3">Send us a message</h3>
-                <p className="text-gray-600">We&apos;ll get back to you within 24 hours</p>
+                <h3 className="text-3xl font-bold text-gray-900 mb-3">{t('form.title')}</h3>
+                <p className="text-gray-600">{t('form.subtitle')}</p>
               </div>
               
               {submitStatus === 'success' && (
@@ -154,7 +156,7 @@ export default function ContactSection() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
-                    <p className="text-green-800 font-semibold">Thank you! Your message has been sent successfully.</p>
+                    <p className="text-green-800 font-semibold">{t('form.success')}</p>
                   </div>
                 </div>
               )}
@@ -167,7 +169,7 @@ export default function ContactSection() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                       </svg>
                     </div>
-                    <p className="text-red-800 font-semibold">Sorry, there was an error sending your message. Please try again.</p>
+                    <p className="text-red-800 font-semibold">{t('form.error')}</p>
                   </div>
                 </div>
               )}
@@ -176,7 +178,7 @@ export default function ContactSection() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="group">
                     <label htmlFor="firstName" className="block text-sm font-semibold text-gray-700 mb-3">
-                      First Name *
+                      {t('form.firstName')} *
                     </label>
                     <input
                       type="text"
@@ -195,12 +197,12 @@ export default function ContactSection() {
                       onBlur={(e) => {
                         e.currentTarget.style.boxShadow = 'none';
                       }}
-                      placeholder="John"
+                      placeholder={t('form.placeholders.firstName')}
                     />
                   </div>
                   <div className="group">
                     <label htmlFor="lastName" className="block text-sm font-semibold text-gray-700 mb-3">
-                      Last Name *
+                      {t('form.lastName')} *
                     </label>
                     <input
                       type="text"
@@ -219,7 +221,7 @@ export default function ContactSection() {
                       onBlur={(e) => {
                         e.currentTarget.style.boxShadow = 'none';
                       }}
-                      placeholder="Doe"
+                      placeholder={t('form.placeholders.lastName')}
                     />
                   </div>
                 </div>
@@ -227,7 +229,7 @@ export default function ContactSection() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="group">
                     <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-3">
-                      Email Address *
+                      {t('form.email')} *
                     </label>
                     <input
                       type="email"
@@ -246,12 +248,12 @@ export default function ContactSection() {
                       onBlur={(e) => {
                         e.currentTarget.style.boxShadow = 'none';
                       }}
-                      placeholder="john@example.com"
+                      placeholder={t('form.placeholders.email')}
                     />
                   </div>
                   <div className="group">
                     <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-3">
-                      Phone Number
+                      {t('form.phone')}
                     </label>
                     <input
                       type="tel"
@@ -269,14 +271,14 @@ export default function ContactSection() {
                       onBlur={(e) => {
                         e.currentTarget.style.boxShadow = 'none';
                       }}
-                      placeholder="(555) 123-4567"
+                      placeholder={t('form.placeholders.phone')}
                     />
                   </div>
                 </div>
 
                 <div className="group">
                   <label htmlFor="subject" className="block text-sm font-semibold text-gray-700 mb-3">
-                    Subject *
+                    {t('form.subject')} *
                   </label>
                   <input
                     type="text"
@@ -286,13 +288,13 @@ export default function ContactSection() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-6 py-4 bg-gray-50 border-2 border-transparent rounded-xl focus:ring-2 focus:ring-[#CC4C3D] focus:border-transparent focus:bg-white transition-all duration-300 text-gray-900 placeholder-gray-500"
-                    placeholder="What can we help you with?"
+                    placeholder={t('form.placeholders.subject')}
                   />
                 </div>
 
                 <div className="group">
                   <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-3">
-                    Message *
+                    {t('form.message')} *
                   </label>
                   <textarea
                     id="message"
@@ -302,7 +304,7 @@ export default function ContactSection() {
                     required
                     rows={6}
                     className="w-full px-6 py-4 bg-gray-50 border-2 border-transparent rounded-xl focus:ring-2 focus:ring-[#CC4C3D] focus:border-transparent focus:bg-white transition-all duration-300 text-gray-900 placeholder-gray-500 resize-none"
-                    placeholder="Tell us about your project and how we can help..."
+                    placeholder={t('form.placeholders.message')}
                   />
                 </div>
 
@@ -323,10 +325,10 @@ export default function ContactSection() {
                   {isSubmitting ? (
                     <div className="flex items-center justify-center">
                       <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-3"></div>
-                      Sending Message...
+                      {t('form.sending')}
                     </div>
                   ) : (
-                    'Send Message'
+                    t('form.submit')
                   )}
                 </button>
               </form>

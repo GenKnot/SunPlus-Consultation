@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Início",
+    "services": "Serviços",
+    "about": "Sobre",
+    "testimonials": "Depoimentos",
+    "faq": "Perguntas Frequentes",
+    "contact": "Contato",
+    "getStarted": "Começar"
+  },
+  "hero": {
+    "title": "Transforme Seu Negócio com Soluções Especializadas",
+    "description": "Pare de fazer malabarismos com vários fornecedores. Obtenha tudo o que seu negócio precisa de um parceiro confiável: sites impressionantes, orientação estratégica de TI, contabilidade certificada por CPA, consultoria especializada, conformidade de saúde e suporte para reivindicações de seguros.",
+    "cta": "Comece agora"
+  },
+  "about": {
+    "title": "Confiado por Mais de 100 Empresas em Crescimento",
+    "description": "Entendemos os desafios únicos que as pequenas e médias empresas enfrentam. Nossa abordagem integrada economiza tempo, reduz custos e acelera o crescimento.",
+    "cta": "Comece agora"
+  },
+  "company": {
+    "title": "Seu Parceiro de Negócios",
+    "subtitle": "Soluções empresariais completas para pequenas e médias empresas.",
+    "tech": {
+      "title": "Soluções Tecnológicas",
+      "description": "Design web profissional, liderança de TI e orientação tecnológica estratégica."
+    },
+    "financial": {
+      "title": "Serviços Financeiros e Administrativos",
+      "description": "Contabilidade certificada por CPA, consultoria e suporte administrativo."
+    },
+    "compliance": {
+      "title": "Conformidade e Reivindicações Especializadas",
+      "description": "Conformidade regulatória de saúde e suporte para reivindicações de seguros."
+    },
+    "stats": {
+      "projects": "Projetos Concluídos",
+      "clients": "Clientes Satisfeitos",
+      "experience": "Anos de Experiência"
+    },
+    "cta": "Trabalhe Conosco"
+  },
+  "services": {
+    "title": "O Que Fazemos de Melhor",
+    "subtitle": "Nove serviços especializados que trabalham juntos para transformar suas operações comerciais e impulsionar o crescimento",
+    "webDesign": {
+      "title": "Design Web",
+      "description": "Converta mais visitantes em clientes com sites que carregam rápido, parecem profissionais e funcionam perfeitamente em todos os dispositivos.",
+      "features": {
+        "responsive": "Design responsivo mobile-first",
+        "seo": "Otimização SEO para ranking do Google",
+        "monitoring": "Monitoramento de desempenho 24/7",
+        "security": "Atualizações de segurança mensais"
+      }
+    },
+    "itLeadership": {
+      "title": "Liderança de TI",
+      "description": "Tome decisões tecnológicas mais inteligentes e lidere sua equipe com confiança. Orientamos sua estratégia de TI do planejamento à execução.",
+      "features": {
+        "roadmap": "Desenvolvimento de roteiro tecnológico",
+        "training": "Treinamento e mentoria de equipe",
+        "integration": "Planejamento de integração de sistemas",
+        "vendor": "Gestão de fornecedores"
+      }
+    },
+    "bookkeeping": {
+      "title": "Contabilidade",
+      "description": "Mantenha suas finanças organizadas e em conformidade com contabilidade certificada por CPA. Obtenha benefícios de membro qualificado para planejamento financeiro avançado.",
+      "features": {
+        "reports": "Relatórios financeiros mensais",
+        "tax": "Preparação e declaração de impostos",
+        "perks": "Benefícios de membro qualificado",
+        "audit": "Suporte de auditoria"
+      }
+    },
+    "consultation": {
+      "title": "Consultoria",
+      "description": "Simplifique suas operações e aumente a eficiência com orientação especializada sobre processos administrativos e melhores práticas de gestão.",
+      "features": {
+        "audits": "Auditorias de otimização de processos",
+        "training": "Programas de treinamento em gestão",
+        "setup": "Configuração de sistema administrativo",
+        "strategy": "Planejamento de estratégia de crescimento"
+      }
+    },
+    "claims": {
+      "title": "Suporte para Reivindicações",
+      "description": "Navegue pelas reivindicações de seguros com confiança. Cuidamos da papelada, acompanhamentos e negociações para maximizar seus benefícios de cobertura.",
+      "features": {
+        "documentation": "Documentação e apresentação de reivindicações",
+        "liaison": "Ligação com companhia de seguros",
+        "negotiation": "Negociação de acordos",
+        "resolution": "Resolução de recursos e disputas"
+      }
+    },
+    "healthcare": {
+      "title": "Conformidade de Saúde",
+      "description": "Lance e expanda sua prática de saúde com confiança. Orientação especializada sobre requisitos regulatórios, operações de clínica e conformidade com Health Canada.",
+      "features": {
+        "regulatory": "Conformidade regulatória do Health Canada",
+        "licensing": "Suporte de configuração e licenciamento de clínica",
+        "standards": "Implementação de padrões operacionais",
+        "consulting": "Consultoria de crescimento de prática"
+      }
+    },
+    "financial": {
+      "title": "Planejamento Financeiro",
+      "description": "Planeje o sucesso a longo prazo com estratégias financeiras abrangentes adaptadas aos seus objetivos comerciais. Do orçamento ao planejamento de investimentos, ajudamos você a tomar decisões informadas.",
+      "features": {
+        "budget": "Planejamento orçamentário estratégico",
+        "investment": "Consultoria de estratégia de investimento",
+        "cashflow": "Previsão de fluxo de caixa",
+        "retirement": "Planejamento de aposentadoria e sucessão"
+      }
+    },
+    "admin": {
+      "title": "Suporte Administrativo",
+      "description": "Concentre-se no seu negócio principal enquanto cuidamos dos detalhes administrativos. Do agendamento de compromissos à coordenação logística, simplificamos suas operações diárias.",
+      "features": {
+        "scheduling": "Gestão de compromissos e agendamento",
+        "coordination": "Serviços de coordenação de clientes",
+        "logistics": "Suporte logístico e de cadeia de suprimentos",
+        "automation": "Automação de processos administrativos"
+      }
+    },
+    "talent": {
+      "title": "Aquisição de Talentos",
+      "description": "Encontre o ajuste perfeito para sua equipe. Conectamos você com candidatos qualificados que correspondem à sua cultura empresarial e necessidades comerciais, economizando tempo e recursos.",
+      "features": {
+        "sourcing": "Busca e seleção de candidatos",
+        "interview": "Coordenação de entrevistas",
+        "assessment": "Avaliação e correspondência de habilidades",
+        "onboarding": "Suporte de integração"
+      }
+    }
+  },
+  "features": {
+    "title": "Por Que Escolher SunPlus Consultation Services?",
+    "subtitle": "Entregamos resultados que importam: maior eficiência, custos reduzidos e crescimento acelerado para o seu negócio.",
+    "fastResults": {
+      "title": "Resultados Rápidos",
+      "description": "Veja melhorias mensuráveis em seu negócio em 30 dias. Nossos processos comprovados entregam vitórias rápidas enquanto constroem sucesso a longo prazo."
+    },
+    "costSavings": {
+      "title": "Economia de Custos",
+      "description": "Reduza os custos operacionais em até 40% através de nossa abordagem integrada. Um parceiro significa menores despesas gerais e melhor coordenação."
+    },
+    "cpaExpertise": {
+      "title": "Expertise CPA",
+      "description": "Contadores públicos certificados lidam com suas finanças com precisão. Mantenha-se em conformidade, minimize a carga tributária e tome decisões financeiras mais inteligentes."
+    },
+    "dedicatedSupport": {
+      "title": "Suporte Dedicado",
+      "description": "Obtenha uma equipe dedicada que conhece seu negócio por dentro e por fora. Não é mais necessário explicar suas necessidades a diferentes fornecedores toda vez."
+    },
+    "growthFocused": {
+      "title": "Focado no Crescimento",
+      "description": "Cada serviço é projetado para escalar com seu negócio. De startup a expansão, crescemos junto com você."
+    },
+    "secureReliable": {
+      "title": "Seguro e Confiável",
+      "description": "Segurança de nível bancário para seus dados e sistemas. Garantia de tempo de atividade de 99,9% garante que seu negócio nunca pare de funcionar."
+    }
+  },
+  "testimonials": {
+    "title": "Confiado por Mais de 100 Empresas em Crescimento",
+    "subtitle": "Temos orgulho de ser o parceiro preferido para pequenas e médias empresas que buscam soluções abrangentes.",
+    "items": {
+      "retail": "SunPlus Consultation Services transformou completamente nosso negócio. Seus serviços de design e manutenção de sites nos deram uma presença online profissional, enquanto sua liderança de TI nos ajudou a modernizar nossos sistemas. A contabilidade CPA nos economizou milhares. Altamente recomendado!",
+      "consulting": "Como proprietário de uma pequena empresa, estava lutando com finanças e tecnologia. A abordagem abrangente da SunPlus Consultation Services - do design de sites à contabilidade e consultoria - me deu tudo o que precisava sob um mesmo teto. Mudança de jogo!",
+      "manufacturing": "Os serviços de contabilidade financeira e administrativa são excepcionais. Eles lidam com todos os nossos relatórios financeiros e conformidade, enquanto seus serviços de consultoria nos ajudaram a simplificar as operações. Nossa receita aumentou 35% no primeiro ano.",
+      "tech": "Liderança de TI e manutenção de sites excepcionais. Eles nos ajudaram a construir uma presença online profissional e forneceram suporte técnico contínuo. O programa de suporte financeiro para membros qualificados é um grande bônus para empresas em crescimento.",
+      "healthcare": "Profissional, confiável e incrivelmente conhecedor. Seus serviços de consultoria para suporte administrativo e de gestão foram inestimáveis para nossa empresa de médio porte. Eles realmente entendem o que as pequenas e médias empresas precisam para ter sucesso."
+    },
+    "authors": {
+      "retail": "— PROPRIETÁRIO DE LOJA DE VAREJO",
+      "consulting": "— EMPRESA DE CONSULTORIA",
+      "manufacturing": "— EMPRESA DE MANUFATURA",
+      "tech": "— STARTUP DE TECNOLOGIA",
+      "healthcare": "— PRÁTICA DE SAÚDE"
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Encontre respostas para perguntas comuns sobre nossos serviços e como podemos ajudar seu negócio a crescer",
+    "items": {
+      "q1": {
+        "question": "Quais serviços empresariais a SunPlus Consultation Services Inc. fornece?",
+        "answer": "Oferecemos cinco serviços principais: 1) Design e manutenção de sites, 2) Liderança de TI, 3) Contabilidade financeira e administrativa com expertise CPA, 4) Serviços de consultoria para suporte administrativo e de gestão, e 5) Suporte para reivindicações de seguros para gestão e negociação de reivindicações - todos especificamente projetados para pequenas e médias empresas."
+      },
+      "q2": {
+        "question": "Como funciona seu serviço de design e manutenção de sites?",
+        "answer": "Nosso serviço de design e manutenção de sites inclui a criação de sites modernos e responsivos que convertem visitantes em clientes. Cuidamos de tudo, desde o design inicial até a manutenção contínua, otimização SEO e monitoramento de desempenho para garantir que sua presença online impulsione o crescimento do negócio."
+      },
+      "q3": {
+        "question": "O que é liderança de TI e como pode ajudar meu negócio?",
+        "answer": "Nosso serviço de liderança de TI fornece orientação tecnológica estratégica e liderança técnica para suas operações comerciais. Ajudamos você a tomar decisões tecnológicas informadas, otimizar seus sistemas e liderar sua equipe técnica de forma eficaz para melhorar a eficiência e produtividade."
+      },
+      "q4": {
+        "question": "O que torna seus serviços de contabilidade financeira e administrativa diferentes?",
+        "answer": "Nossos serviços de contabilidade financeira e administrativa são liderados por contadores públicos certificados (CPAs) que fornecem gestão financeira abrangente, incluindo contabilidade, relatórios financeiros, preparação de impostos e gestão de conformidade. Também oferecemos suporte financeiro especializado para membros qualificados para ajudar com decisões financeiras estratégicas."
+      },
+      "q5": {
+        "question": "Quais serviços de consultoria vocês oferecem?",
+        "answer": "Fornecemos serviços de consultoria para suporte administrativo e de gestão especificamente projetados para pequenas e médias empresas. Isso inclui otimização de processos, orientação administrativa, consultoria de gestão e planejamento estratégico para ajudar a simplificar operações e maximizar a lucratividade."
+      },
+      "q6": {
+        "question": "Vocês trabalham apenas com pequenas e médias empresas?",
+        "answer": "Sim, nos especializamos em atender pequenas e médias empresas. Nossos serviços são especificamente adaptados para atender às necessidades únicas, desafios e oportunidades de crescimento que essas empresas enfrentam. Entendemos os requisitos e restrições específicos de operações menores."
+      },
+      "q7": {
+        "question": "Posso obter vários serviços juntos?",
+        "answer": "Absolutamente! Incentivamos as empresas a aproveitar nossa abordagem de solução completa. Muitos clientes usam nosso design e manutenção de sites, liderança de TI, contabilidade financeira, serviços de consultoria e suporte para reivindicações de seguros juntos para suporte empresarial abrangente. Essa abordagem integrada geralmente fornece melhores resultados e economia de custos."
+      },
+      "q8": {
+        "question": "O que é o suporte financeiro para membros qualificados?",
+        "answer": "Nosso programa de suporte financeiro para membros qualificados fornece orientação e assistência financeira especializada para empresas elegíveis. Isso inclui planejamento financeiro avançado, aconselhamento financeiro estratégico e suporte contínuo para ajudar membros qualificados a tomar decisões financeiras informadas e otimizar suas finanças comerciais."
+      }
+    },
+    "stillHaveQuestions": "Ainda tem perguntas?",
+    "cantFind": "Não consegue encontrar a resposta que procura? Nossa equipe está aqui para ajudar.",
+    "contactCta": "Entre em Contato Hoje"
+  },
+  "cta": {
+    "title": "Pronto para Expandir Seu Negócio?",
+    "description": "Do design e manutenção de sites à liderança de TI, contabilidade financeira com expertise CPA, serviços de consultoria e suporte para reivindicações de seguros, fornecemos tudo o que sua pequena ou média empresa precisa para ter sucesso. Vamos discutir seu projeto hoje.",
+    "primaryCta": "Comece Hoje",
+    "secondaryCta": "Veja Nossos Serviços",
+    "stats": {
+      "clients": "Clientes Satisfeitos",
+      "projects": "Projetos Concluídos",
+      "experience": "Anos de Experiência"
+    }
+  },
+  "contact": {
+    "title": "Vamos Expandir Seu Negócio Juntos",
+    "subtitle": "Pronto para levar seu negócio ao próximo nível? Do design e manutenção de sites à liderança de TI, contabilidade financeira com expertise CPA, serviços de consultoria e suporte para reivindicações de seguros, estamos aqui para ajudá-lo a ter sucesso.",
+    "emailUs": "Envie-nos um E-mail",
+    "visitUs": "Visite-nos",
+    "address": "501-998 Boul. Saint-Laurent",
+    "businessHours": "Horário Comercial",
+    "hours": {
+      "weekdays": "Segunda - Sexta: 9:00 - 18:00",
+      "saturday": "Sábado: 10:00 - 16:00",
+      "sunday": "Domingo: Fechado"
+    },
+    "form": {
+      "title": "Envie-nos uma mensagem",
+      "subtitle": "Responderemos em 24 horas",
+      "firstName": "Nome",
+      "lastName": "Sobrenome",
+      "email": "Endereço de E-mail",
+      "phone": "Número de Telefone",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "sending": "Enviando Mensagem...",
+      "success": "Obrigado! Sua mensagem foi enviada com sucesso.",
+      "error": "Desculpe, houve um erro ao enviar sua mensagem. Por favor, tente novamente.",
+      "placeholders": {
+        "firstName": "João",
+        "lastName": "Silva",
+        "email": "joao@example.com",
+        "phone": "(555) 123-4567",
+        "subject": "Como podemos ajudá-lo?",
+        "message": "Conte-nos sobre seu projeto e como podemos ajudar..."
+      }
+    }
+  },
+  "footer": {
+    "description": "Soluções empresariais completas para pequenas e médias empresas. Fornecemos serviços de contabilidade, impostos, consultoria financeira, desenvolvimento empresarial e suporte administrativo de seguros para ajudar sua empresa a crescer e ter sucesso.",
+    "quickLinks": "Links Rápidos",
+    "businessHours": "Horário Comercial",
+    "hours": {
+      "weekdays": "Segunda - Sexta",
+      "weekdaysTime": "9:00 - 18:00",
+      "saturday": "Sábado",
+      "saturdayTime": "10:00 - 16:00",
+      "sunday": "Domingo",
+      "sundayTime": "Fechado"
+    },
+    "copyright": "Todos os direitos reservados.",
+    "privacyPolicy": "Política de Privacidade",
+    "termsOfService": "Termos de Serviço"
+  },
+  "seo": {
+    "title": "SunPlus Consultation Services - 9 Soluções Empresariais Especializadas para PMEs",
+    "description": "Soluções empresariais completas: design web, liderança de TI, contabilidade CPA, consultoria, conformidade de saúde, reivindicações de seguros, planejamento financeiro, suporte administrativo e aquisição de talentos. Confiado por mais de 100 empresas em crescimento.",
+    "keywords": "soluções empresariais, serviços de consultoria, design web, liderança de TI, contabilidade CPA, consultoria empresarial, conformidade de saúde, reivindicações de seguros, planejamento financeiro, suporte administrativo, aquisição de talentos, serviços para pequenas empresas, soluções PME",
+    "ogTitle": "SunPlus Consultation Services - Seu Parceiro de Negócios Completo",
+    "ogDescription": "9 serviços especializados em um só lugar: design web, liderança de TI, contabilidade CPA, consultoria, conformidade de saúde, reivindicações de seguros, planejamento financeiro, suporte administrativo e aquisição de talentos.",
+    "locale": "pt_PT",
+    "siteName": "SunPlus Consultation Services Inc."
+  }
+}

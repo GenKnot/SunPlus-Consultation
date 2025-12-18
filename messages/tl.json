@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Mga Serbisyo",
+    "about": "Tungkol sa Amin",
+    "testimonials": "Mga Testimonial",
+    "faq": "Mga Madalas Itanong",
+    "contact": "Makipag-ugnayan",
+    "getStarted": "Magsimula"
+  },
+  "hero": {
+    "title": "Baguhin ang Iyong Negosyo gamit ang Mga Eksperto na Solusyon",
+    "description": "Tigilan ang pakikipagtulungan sa maraming vendor. Kunin ang lahat ng kailangan ng iyong negosyo mula sa isang pinagkakatiwalaang kasosyo: kahanga-hangang mga website, estratehikong gabay sa IT, CPA-certified na bookkeeping, eksperto na konsultasyon, healthcare compliance, at insurance claims support.",
+    "cta": "Magsimula ngayon"
+  },
+  "about": {
+    "title": "Pinagkakatiwalaan ng 100+ Lumalaking Negosyo",
+    "description": "Nauunawaan namin ang natatanging hamon na kinakaharap ng maliliit hanggang katamtamang laki ng negosyo. Ang aming pinag-isang diskarte ay nakakatipid ng oras, nagpapababa ng gastos, at nagpapabilis ng paglaki.",
+    "cta": "Magsimula ngayon"
+  },
+  "company": {
+    "title": "Ang Iyong Kasosyo sa Negosyo",
+    "subtitle": "Kumpletong mga solusyon sa negosyo para sa maliliit hanggang katamtamang laki ng negosyo.",
+    "tech": {
+      "title": "Mga Solusyon sa Teknolohiya",
+      "description": "Propesyonal na web design, IT leadership, at estratehikong gabay sa teknolohiya."
+    },
+    "financial": {
+      "title": "Mga Serbisyo sa Pananalapi at Administratibo",
+      "description": "CPA-certified na bookkeeping, konsultasyon, at administratibong suporta."
+    },
+    "compliance": {
+      "title": "Espesyalisadong Compliance at Claims",
+      "description": "Healthcare regulatory compliance at insurance claims support."
+    },
+    "stats": {
+      "projects": "Natapos na Proyekto",
+      "clients": "Masayang Kliyente",
+      "experience": "Taon ng Karanasan"
+    },
+    "cta": "Makipagtulungan sa Amin"
+  },
+  "services": {
+    "title": "Ang Aming Pinakamahusay na Ginagawa",
+    "subtitle": "Siyam na espesyalisadong serbisyo na nagtutulungan upang baguhin ang iyong mga operasyon sa negosyo at magmaneho ng paglaki",
+    "webDesign": {
+      "title": "Web Design",
+      "description": "I-convert ang mas maraming bisita sa mga customer gamit ang mga website na mabilis mag-load, mukhang propesyonal, at gumagana nang perpekto sa lahat ng device.",
+      "features": {
+        "responsive": "Mobile-first responsive design",
+        "seo": "SEO optimization para sa Google ranking",
+        "monitoring": "24/7 performance monitoring",
+        "security": "Buwanang security updates"
+      }
+    },
+    "itLeadership": {
+      "title": "IT Leadership",
+      "description": "Gumawa ng mas matalinong mga desisyon sa teknolohiya at mamuno sa iyong koponan nang may kumpiyansa. Ginagabayan namin ang iyong IT strategy mula sa pagpaplano hanggang sa pagpapatupad.",
+      "features": {
+        "roadmap": "Technology roadmap development",
+        "training": "Team training at mentoring",
+        "integration": "System integration planning",
+        "vendor": "Vendor management"
+      }
+    },
+    "bookkeeping": {
+      "title": "Bookkeeping",
+      "description": "Panatilihing organisado at compliant ang iyong pananalapi gamit ang CPA-certified na bookkeeping. Makakuha ng qualified member benefits para sa advanced financial planning.",
+      "features": {
+        "reports": "Buwanang financial reports",
+        "tax": "Tax preparation at filing",
+        "perks": "Qualified member perks",
+        "audit": "Audit support"
+      }
+    },
+    "consultation": {
+      "title": "Konsultasyon",
+      "description": "I-streamline ang iyong mga operasyon at palakasin ang kahusayan gamit ang eksperto na gabay sa mga proseso ng administratibo at pinakamahusay na kasanayan sa pamamahala.",
+      "features": {
+        "audits": "Process optimization audits",
+        "training": "Management training programs",
+        "setup": "Administrative system setup",
+        "strategy": "Growth strategy planning"
+      }
+    },
+    "claims": {
+      "title": "Claims Support",
+      "description": "Mag-navigate sa mga insurance claims nang may kumpiyansa. Hinahawakan namin ang paperwork, follow-ups, at negosasyon upang i-maximize ang iyong mga benepisyo sa coverage.",
+      "features": {
+        "documentation": "Claim documentation at filing",
+        "liaison": "Insurance company liaison",
+        "negotiation": "Settlement negotiation",
+        "resolution": "Appeal at dispute resolution"
+      }
+    },
+    "healthcare": {
+      "title": "Healthcare Compliance",
+      "description": "Ilunsad at palakasin ang iyong healthcare practice nang may kumpiyansa. Eksperto na gabay sa mga kinakailangan sa regulasyon, operasyon ng klinika, at Health Canada compliance.",
+      "features": {
+        "regulatory": "Health Canada regulatory compliance",
+        "licensing": "Clinic setup at licensing support",
+        "standards": "Operational standards implementation",
+        "consulting": "Practice growth consulting"
+      }
+    },
+    "financial": {
+      "title": "Financial Planning",
+      "description": "Magplano para sa pangmatagalang tagumpay gamit ang komprehensibong mga estratehiya sa pananalapi na iniayon sa iyong mga layunin sa negosyo. Mula sa budgeting hanggang sa investment planning, tinutulungan ka naming gumawa ng mga matalinong desisyon.",
+      "features": {
+        "budget": "Strategic budget planning",
+        "investment": "Investment strategy consulting",
+        "cashflow": "Cash flow forecasting",
+        "retirement": "Retirement at succession planning"
+      }
+    },
+    "admin": {
+      "title": "Admin Support",
+      "description": "Tumuon sa iyong pangunahing negosyo habang hinahawakan namin ang mga detalye ng administratibo. Mula sa appointment scheduling hanggang sa logistics coordination, pine-streamline namin ang iyong pang-araw-araw na operasyon.",
+      "features": {
+        "scheduling": "Appointment at scheduling management",
+        "coordination": "Client coordination services",
+        "logistics": "Logistics at supply chain support",
+        "automation": "Administrative process automation"
+      }
+    },
+    "talent": {
+      "title": "Talent Acquisition",
+      "description": "Hanapin ang perpektong fit para sa iyong koponan. Kino-connect ka namin sa mga qualified na kandidato na tumutugma sa iyong company culture at pangangailangan sa negosyo, na nakakatipid ng oras at resources.",
+      "features": {
+        "sourcing": "Candidate sourcing at screening",
+        "interview": "Interview coordination",
+        "assessment": "Skills assessment at matching",
+        "onboarding": "Onboarding support"
+      }
+    }
+  },
+  "features": {
+    "title": "Bakit Piliin ang SunPlus Consultation Services?",
+    "subtitle": "Naghahatid kami ng mga resulta na mahalaga: tumaas na kahusayan, nabawasan ang mga gastos, at pinabilis na paglaki para sa iyong negosyo.",
+    "fastResults": {
+      "title": "Mabilis na Resulta",
+      "description": "Makita ang nasusukatan na mga pagpapabuti sa iyong negosyo sa loob ng 30 araw. Ang aming napatunayang mga proseso ay naghahatid ng mabilis na mga panalo habang bumubuo ng pangmatagalang tagumpay."
+    },
+    "costSavings": {
+      "title": "Pagtitipid sa Gastos",
+      "description": "Bawasan ang mga gastos sa operasyon ng hanggang 40% sa pamamagitan ng aming pinag-isang diskarte. Ang isang kasosyo ay nangangahulugan ng mas mababang overhead at mas mahusay na koordinasyon."
+    },
+    "cpaExpertise": {
+      "title": "CPA Expertise",
+      "description": "Ang mga certified public accountants ay humahawak ng iyong pananalapi nang may katumpakan. Manatiling compliant, bawasan ang tax burden, at gumawa ng mas matalinong mga desisyon sa pananalapi."
+    },
+    "dedicatedSupport": {
+      "title": "Dedicated Support",
+      "description": "Makakuha ng dedicated na koponan na nakakakilala sa iyong negosyo sa loob at labas. Wala nang pagpapaliwanag ng iyong mga pangangailangan sa iba't ibang vendors sa bawat pagkakataon."
+    },
+    "growthFocused": {
+      "title": "Nakatuon sa Paglaki",
+      "description": "Ang bawat serbisyo ay dinisenyo upang lumaki kasama ng iyong negosyo. Mula sa startup hanggang sa expansion, lumalaki kami kasama mo."
+    },
+    "secureReliable": {
+      "title": "Secure at Reliable",
+      "description": "Bank-level na seguridad para sa iyong data at mga sistema. Ang 99.9% uptime guarantee ay nagsisiguro na ang iyong negosyo ay hindi kailanman titigil sa pagtakbo."
+    }
+  },
+  "testimonials": {
+    "title": "Pinagkakatiwalaan ng 100+ Lumalaking Negosyo",
+    "subtitle": "Ipinagmamalaki naming maging ang go-to partner para sa maliliit hanggang katamtamang laki ng negosyo na naghahanap ng komprehensibong mga solusyon.",
+    "items": {
+      "retail": "Lubos na binago ng SunPlus Consultation Services ang aming negosyo. Ang kanilang website design at maintenance services ay nagbigay sa amin ng propesyonal na online presence, habang ang kanilang IT leadership ay tumulong sa amin na mag-modernize ng aming mga sistema. Ang CPA bookkeeping ay nakatipid sa amin ng libu-libo. Lubos na inirerekomenda!",
+      "consulting": "Bilang isang may-ari ng maliit na negosyo, nahihirapan ako sa pananalapi at teknolohiya. Ang komprehensibong diskarte ng SunPlus Consultation Services - mula sa website design hanggang sa bookkeeping at konsultasyon - ay nagbigay sa akin ng lahat ng kailangan ko sa ilalim ng isang bubong. Game changer!",
+      "manufacturing": "Ang finance bookkeeping at administrative services ay pambihira. Hinahawakan nila ang lahat ng aming financial reporting at compliance, habang ang kanilang consultation services ay tumulong sa amin na i-streamline ang mga operasyon. Tumaas ang aming kita ng 35% sa unang taon.",
+      "tech": "Napakahusay na IT leadership at website maintenance. Tinulungan nila kaming bumuo ng propesyonal na online presence at nagbigay ng patuloy na technical support. Ang qualified member financial support program ay malaking bonus para sa lumalaking mga negosyo.",
+      "healthcare": "Propesyonal, maaasahan, at hindi kapani-paniwalang maalam. Ang kanilang consultation services para sa administrative at management support ay napakahalagang-halaga para sa aming katamtamang laki ng negosyo. Tunay nilang nauunawaan kung ano ang kailangan ng maliliit hanggang katamtamang negosyo upang magtagumpay."
+    },
+    "authors": {
+      "retail": "— MAY-ARI NG RETAIL STORE",
+      "consulting": "— CONSULTING FIRM",
+      "manufacturing": "— MANUFACTURING COMPANY",
+      "tech": "— TECH STARTUP",
+      "healthcare": "— HEALTHCARE PRACTICE"
+    }
+  },
+  "faq": {
+    "title": "Mga Madalas Itanong",
+    "subtitle": "Hanapin ang mga sagot sa mga karaniwang tanong tungkol sa aming mga serbisyo at kung paano namin matutulungan ang iyong negosyo na lumaki",
+    "items": {
+      "q1": {
+        "question": "Anong mga serbisyo sa negosyo ang ibinibigay ng SunPlus Consultation Services Inc.?",
+        "answer": "Nag-aalok kami ng limang pangunahing serbisyo: 1) Website design at maintenance, 2) IT leadership, 3) Finance bookkeeping at administrative na may CPA expertise, 4) Consultation services para sa administrative at management support, at 5) Insurance claims support para sa claims management at negotiation - lahat ay partikular na dinisenyo para sa maliliit hanggang katamtamang laki ng negosyo."
+      },
+      "q2": {
+        "question": "Paano gumagana ang inyong website design at maintenance service?",
+        "answer": "Ang aming website design at maintenance service ay kinabibilangan ng paglikha ng modernong, responsive na mga website na nag-convert ng mga bisita sa mga customer. Hinahawakan namin ang lahat mula sa paunang disenyo hanggang sa patuloy na maintenance, SEO optimization, at performance monitoring upang masiguro na ang iyong online presence ay nagmamaneho ng paglaki ng negosyo."
+      },
+      "q3": {
+        "question": "Ano ang IT leadership at paano nito matutulungan ang aking negosyo?",
+        "answer": "Ang aming IT leadership service ay nagbibigay ng estratehikong gabay sa teknolohiya at teknikal na pamumuno para sa iyong mga operasyon sa negosyo. Tinutulungan ka naming gumawa ng mga matalinong desisyon sa teknolohiya, i-optimize ang iyong mga sistema, at mamuno sa iyong teknikal na koponan nang epektibo upang mapabuti ang kahusayan at produktibidad."
+      },
+      "q4": {
+        "question": "Ano ang nagpapangatangi sa inyong finance bookkeeping at administrative services?",
+        "answer": "Ang aming finance bookkeeping at administrative services ay pinamumunuan ng mga certified public accountants (CPAs) na nagbibigay ng komprehensibong pamamahala sa pananalapi kabilang ang bookkeeping, financial reporting, tax preparation, at compliance management. Nag-aalok din kami ng espesyalisadong suportang pampinansyal para sa mga qualified na miyembro upang tumulong sa mga estratehikong desisyon sa pananalapi."
+      },
+      "q5": {
+        "question": "Anong mga consultation services ang inaalok ninyo?",
+        "answer": "Nagbibigay kami ng consultation services para sa administrative at management support na partikular na dinisenyo para sa maliliit hanggang katamtamang laki ng negosyo. Kabilang dito ang process optimization, administrative guidance, management consulting, at strategic planning upang tumulong na i-streamline ang mga operasyon at i-maximize ang kita."
+      },
+      "q6": {
+        "question": "Nakikipagtulungan ba kayo lamang sa maliliit at katamtamang laki ng negosyo?",
+        "answer": "Oo, nag-specialize kami sa paglilingkod sa maliliit hanggang katamtamang laki ng negosyo. Ang aming mga serbisyo ay partikular na iniayon upang matugunan ang natatanging pangangailangan, hamon, at mga pagkakataon sa paglaki na kinakaharap ng mga negosyong ito. Nauunawaan namin ang mga partikular na kinakailangan at hadlang ng mas maliliit na operasyon."
+      },
+      "q7": {
+        "question": "Maaari ba akong makakuha ng maraming serbisyo nang sabay-sabay?",
+        "answer": "Tiyak naman! Hinihikayat namin ang mga negosyo na samantalahin ang aming kumpletong diskarte sa solusyon. Maraming kliyente ang gumagamit ng aming website design at maintenance, IT leadership, finance bookkeeping, consultation services, at insurance claims support nang sabay-sabay para sa komprehensibong suporta sa negosyo. Ang pinag-isang diskarteng ito ay kadalasang nagbibigay ng mas mahusay na resulta at pagtitipid sa gastos."
+      },
+      "q8": {
+        "question": "Ano ang qualified member financial support?",
+        "answer": "Ang aming qualified member financial support program ay nagbibigay ng espesyalisadong gabay at tulong sa pananalapi sa mga kwalipikadong negosyo. Kabilang dito ang advanced financial planning, strategic financial advice, at patuloy na suporta upang tulungan ang mga qualified na miyembro na gumawa ng mga matalinong desisyon sa pananalapi at i-optimize ang kanilang pananalapi sa negosyo."
+      }
+    },
+    "stillHaveQuestions": "May mga tanong pa rin?",
+    "cantFind": "Hindi mahanap ang sagot na hinahanap mo? Nandito ang aming koponan upang tumulong.",
+    "contactCta": "Makipag-ugnayan sa Amin Ngayon"
+  },
+  "cta": {
+    "title": "Handa na bang Palakasin ang Iyong Negosyo?",
+    "description": "Mula sa website design at maintenance hanggang sa IT leadership, finance bookkeeping na may CPA expertise, consultation services, at insurance claims support, ibinibigay namin ang lahat ng kailangan ng iyong maliit hanggang katamtamang laki ng negosyo upang magtagumpay. Pag-usapan natin ang iyong proyekto ngayon.",
+    "primaryCta": "Magsimula Ngayon",
+    "secondaryCta": "Tingnan ang Aming Mga Serbisyo",
+    "stats": {
+      "clients": "Masayang Kliyente",
+      "projects": "Natapos na Proyekto",
+      "experience": "Taon ng Karanasan"
+    }
+  },
+  "contact": {
+    "title": "Palakasin Natin ang Iyong Negosyo Nang Magkasama",
+    "subtitle": "Handa na bang dalhin ang iyong negosyo sa susunod na antas? Mula sa website design at maintenance hanggang sa IT leadership, finance bookkeeping na may CPA expertise, consultation services, at insurance claims support, nandito kami upang tulungan kang magtagumpay.",
+    "emailUs": "Mag-email sa Amin",
+    "visitUs": "Bisitahin Kami",
+    "address": "501-998 Boul. Saint-Laurent",
+    "businessHours": "Oras ng Negosyo",
+    "hours": {
+      "weekdays": "Lunes - Biyernes: 9:00 AM - 6:00 PM",
+      "saturday": "Sabado: 10:00 AM - 4:00 PM",
+      "sunday": "Linggo: Sarado"
+    },
+    "form": {
+      "title": "Magpadala ng mensahe sa amin",
+      "subtitle": "Babalikan ka namin sa loob ng 24 oras",
+      "firstName": "Pangalan",
+      "lastName": "Apelyido",
+      "email": "Email Address",
+      "phone": "Numero ng Telepono",
+      "subject": "Paksa",
+      "message": "Mensahe",
+      "submit": "Ipadala ang Mensahe",
+      "sending": "Ipinapadala ang Mensahe...",
+      "success": "Salamat! Ang iyong mensahe ay matagumpay na naipadala.",
+      "error": "Paumanhin, may error sa pagpapadala ng iyong mensahe. Pakisubukan muli.",
+      "placeholders": {
+        "firstName": "Juan",
+        "lastName": "Dela Cruz",
+        "email": "juan@example.com",
+        "phone": "(555) 123-4567",
+        "subject": "Paano namin kayo matutulungan?",
+        "message": "Sabihin sa amin ang tungkol sa iyong proyekto at kung paano namin kayo matutulungan..."
+      }
+    }
+  },
+  "footer": {
+    "description": "Kumpletong mga solusyon sa negosyo para sa maliliit hanggang katamtamang laki ng negosyo. Nagbibigay kami ng accounting, tax services, financial consulting, business development, at insurance administrative support upang tulungan ang iyong kumpanya na lumaki at magtagumpay.",
+    "quickLinks": "Mabilis na Mga Link",
+    "businessHours": "Oras ng Negosyo",
+    "hours": {
+      "weekdays": "Lunes - Biyernes",
+      "weekdaysTime": "9:00 AM - 6:00 PM",
+      "saturday": "Sabado",
+      "saturdayTime": "10:00 AM - 4:00 PM",
+      "sunday": "Linggo",
+      "sundayTime": "Sarado"
+    },
+    "copyright": "Nakalaan ang lahat ng karapatan.",
+    "privacyPolicy": "Patakaran sa Privacy",
+    "termsOfService": "Mga Tuntunin ng Serbisyo"
+  },
+  "seo": {
+    "title": "SunPlus Consultation Services - 9 Eksperto na Solusyon sa Negosyo para sa SMBs",
+    "description": "Kumpletong solusyon sa negosyo: web design, IT leadership, CPA bookkeeping, konsultasyon, healthcare compliance, insurance claims, financial planning, admin support, at talent acquisition. Pinagkakatiwalaan ng 100+ lumalaking negosyo.",
+    "keywords": "mga solusyon sa negosyo, mga serbisyo sa konsultasyon, web design, IT leadership, CPA bookkeeping, konsultasyon sa negosyo, healthcare compliance, insurance claims, financial planning, admin support, talent acquisition, mga serbisyo sa maliit na negosyo, suporta sa Filipino business sa Canada",
+    "ogTitle": "SunPlus Consultation Services - Ang Iyong Kumpletong Kasosyo sa Negosyo",
+    "ogDescription": "9 espesyalisadong serbisyo sa isang lugar: web design, IT leadership, CPA bookkeeping, konsultasyon, healthcare compliance, insurance claims, financial planning, admin support, at talent acquisition.",
+    "locale": "tl_PH",
+    "siteName": "SunPlus Consultation Services Inc."
+  }
+}

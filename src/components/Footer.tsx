@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslations } from 'next-intl';
 import { COMPANY_INFO, NAVIGATION_LINKS } from '../lib/constants';
 
 export default function Footer() {
+  const t = useTranslations('footer');
+  const tHeader = useTranslations('header');
   const currentYear = new Date().getFullYear();
 
   return (
@@ -11,8 +14,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-3xl font-bold text-primary-500 mb-6">{COMPANY_INFO.name}</h3>
             <p className="text-gray-300 text-base leading-relaxed mb-8 max-w-lg">
-              Complete business solutions for small to medium-sized businesses. We provide accounting, 
-              tax services, financial consulting, business development, and insurance administrative support to help your company grow and succeed.
+              {t('description')}
             </p>
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">
@@ -36,7 +38,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-semibold text-white mb-6">Quick Links</h4>
+            <h4 className="text-xl font-semibold text-white mb-6">{t('quickLinks')}</h4>
             <ul className="space-y-4">
               {NAVIGATION_LINKS.map((link) => (
                 <li key={link.href}>
@@ -44,7 +46,7 @@ export default function Footer() {
                     href={link.href}
                     className="text-gray-300 hover:text-primary-400 transition-colors duration-300 text-sm block py-1"
                   >
-                    {link.label}
+                    {tHeader(link.key)}
                   </a>
                 </li>
               ))}
@@ -52,19 +54,19 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-xl font-semibold text-white mb-6">Business Hours</h4>
+            <h4 className="text-xl font-semibold text-white mb-6">{t('businessHours')}</h4>
             <div className="space-y-3 text-sm text-gray-300">
               <div className="flex justify-between items-center py-2 border-b border-gray-700">
-                <span className="font-medium">Monday - Friday</span>
-                <span className="text-primary-400">9:00 AM - 6:00 PM</span>
+                <span className="font-medium">{t('hours.weekdays')}</span>
+                <span className="text-primary-400">{t('hours.weekdaysTime')}</span>
               </div>
               <div className="flex justify-between items-center py-2 border-b border-gray-700">
-                <span className="font-medium">Saturday</span>
-                <span className="text-primary-400">10:00 AM - 4:00 PM</span>
+                <span className="font-medium">{t('hours.saturday')}</span>
+                <span className="text-primary-400">{t('hours.saturdayTime')}</span>
               </div>
               <div className="flex justify-between items-center py-2">
-                <span className="font-medium">Sunday</span>
-                <span className="text-gray-500">Closed</span>
+                <span className="font-medium">{t('hours.sunday')}</span>
+                <span className="text-gray-500">{t('hours.sundayTime')}</span>
               </div>
             </div>
           </div>
@@ -75,20 +77,20 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © {currentYear} {COMPANY_INFO.name}. All rights reserved.
+              © {currentYear} {COMPANY_INFO.name}. {t('copyright')}
             </div>
             <div className="flex space-x-8">
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300 text-sm"
               >
-                Privacy Policy
+                {t('privacyPolicy')}
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-primary-400 transition-colors duration-300 text-sm"
               >
-                Terms of Service
+                {t('termsOfService')}
               </a>
             </div>
           </div>

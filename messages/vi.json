@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Trang chủ",
+    "services": "Dịch vụ",
+    "about": "Giới thiệu",
+    "testimonials": "Đánh giá",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "getStarted": "Bắt đầu"
+  },
+  "hero": {
+    "title": "Chuyển đổi doanh nghiệp của bạn với các giải pháp chuyên nghiệp",
+    "description": "Ngừng làm việc với nhiều nhà cung cấp. Nhận mọi thứ doanh nghiệp của bạn cần từ một đối tác đáng tin cậy: trang web tuyệt đẹp, hướng dẫn CNTT chiến lược, kế toán được chứng nhận CPA, tư vấn chuyên gia, tuân thủ chăm sóc sức khỏe và hỗ trợ yêu cầu bảo hiểm.",
+    "cta": "Bắt đầu ngay"
+  },
+  "about": {
+    "title": "Được tin tưởng bởi hơn 100 doanh nghiệp đang phát triển",
+    "description": "Chúng tôi hiểu những thách thức độc đáo mà các doanh nghiệp vừa và nhỏ phải đối mặt. Cách tiếp cận tích hợp của chúng tôi giúp bạn tiết kiệm thời gian, giảm chi phí và tăng tốc tăng trưởng.",
+    "cta": "Bắt đầu ngay"
+  },
+  "company": {
+    "title": "Đối tác kinh doanh của bạn",
+    "subtitle": "Giải pháp kinh doanh hoàn chỉnh cho các doanh nghiệp vừa và nhỏ.",
+    "tech": {
+      "title": "Giải pháp công nghệ",
+      "description": "Thiết kế web chuyên nghiệp, lãnh đạo CNTT và hướng dẫn công nghệ chiến lược."
+    },
+    "financial": {
+      "title": "Dịch vụ tài chính và hành chính",
+      "description": "Kế toán được chứng nhận CPA, tư vấn và hỗ trợ hành chính."
+    },
+    "compliance": {
+      "title": "Tuân thủ và yêu cầu chuyên môn",
+      "description": "Tuân thủ quy định chăm sóc sức khỏe và hỗ trợ yêu cầu bảo hiểm."
+    },
+    "stats": {
+      "projects": "Dự án hoàn thành",
+      "clients": "Khách hàng hài lòng",
+      "experience": "Năm kinh nghiệm"
+    },
+    "cta": "Làm việc với chúng tôi"
+  },
+  "services": {
+    "title": "Những gì chúng tôi làm tốt nhất",
+    "subtitle": "Chín dịch vụ chuyên môn hoạt động cùng nhau để chuyển đổi hoạt động kinh doanh của bạn và thúc đẩy tăng trưởng",
+    "webDesign": {
+      "title": "Thiết kế web",
+      "description": "Chuyển đổi nhiều khách truy cập thành khách hàng với các trang web tải nhanh, trông chuyên nghiệp và hoạt động hoàn hảo trên mọi thiết bị.",
+      "features": {
+        "responsive": "Thiết kế responsive ưu tiên di động",
+        "seo": "Tối ưu hóa SEO cho xếp hạng Google",
+        "monitoring": "Giám sát hiệu suất 24/7",
+        "security": "Cập nhật bảo mật hàng tháng"
+      }
+    },
+    "itLeadership": {
+      "title": "Lãnh đạo CNTT",
+      "description": "Đưa ra quyết định công nghệ thông minh hơn và lãnh đạo đội ngũ của bạn một cách tự tin. Chúng tôi hướng dẫn chiến lược CNTT của bạn từ lập kế hoạch đến thực hiện.",
+      "features": {
+        "roadmap": "Phát triển lộ trình công nghệ",
+        "training": "Đào tạo và cố vấn đội ngũ",
+        "integration": "Lập kế hoạch tích hợp hệ thống",
+        "vendor": "Quản lý nhà cung cấp"
+      }
+    },
+    "bookkeeping": {
+      "title": "Kế toán",
+      "description": "Giữ tài chính của bạn được tổ chức và tuân thủ với kế toán được chứng nhận CPA. Nhận lợi ích thành viên đủ điều kiện cho kế hoạch tài chính nâng cao.",
+      "features": {
+        "reports": "Báo cáo tài chính hàng tháng",
+        "tax": "Chuẩn bị và nộp thuế",
+        "perks": "Đặc quyền thành viên đủ điều kiện",
+        "audit": "Hỗ trợ kiểm toán"
+      }
+    },
+    "consultation": {
+      "title": "Tư vấn",
+      "description": "Hợp lý hóa hoạt động và tăng hiệu quả với hướng dẫn chuyên gia về quy trình hành chính và thực hành quản lý tốt nhất.",
+      "features": {
+        "audits": "Kiểm toán tối ưu hóa quy trình",
+        "training": "Chương trình đào tạo quản lý",
+        "setup": "Thiết lập hệ thống hành chính",
+        "strategy": "Lập kế hoạch chiến lược tăng trưởng"
+      }
+    },
+    "claims": {
+      "title": "Hỗ trợ yêu cầu",
+      "description": "Điều hướng các yêu cầu bảo hiểm một cách tự tin. Chúng tôi xử lý giấy tờ, theo dõi và đàm phán để tối đa hóa lợi ích bảo hiểm của bạn.",
+      "features": {
+        "documentation": "Tài liệu và nộp yêu cầu",
+        "liaison": "Liên lạc với công ty bảo hiểm",
+        "negotiation": "Đàm phán giải quyết",
+        "resolution": "Giải quyết khiếu nại và tranh chấp"
+      }
+    },
+    "healthcare": {
+      "title": "Tuân thủ chăm sóc sức khỏe",
+      "description": "Khởi động và phát triển hoạt động chăm sóc sức khỏe của bạn một cách tự tin. Hướng dẫn chuyên gia về yêu cầu quy định, hoạt động phòng khám và tuân thủ Health Canada.",
+      "features": {
+        "regulatory": "Tuân thủ quy định của Health Canada",
+        "licensing": "Hỗ trợ thiết lập và cấp phép phòng khám",
+        "standards": "Triển khai tiêu chuẩn hoạt động",
+        "consulting": "Tư vấn phát triển hoạt động"
+      }
+    },
+    "financial": {
+      "title": "Kế hoạch tài chính",
+      "description": "Lập kế hoạch cho thành công lâu dài với các chiến lược tài chính toàn diện phù hợp với mục tiêu kinh doanh của bạn. Từ lập ngân sách đến kế hoạch đầu tư, chúng tôi giúp bạn đưa ra quyết định sáng suốt.",
+      "features": {
+        "budget": "Lập kế hoạch ngân sách chiến lược",
+        "investment": "Tư vấn chiến lược đầu tư",
+        "cashflow": "Dự báo dòng tiền",
+        "retirement": "Kế hoạch nghỉ hưu và kế thừa"
+      }
+    },
+    "admin": {
+      "title": "Hỗ trợ hành chính",
+      "description": "Tập trung vào hoạt động kinh doanh cốt lõi của bạn trong khi chúng tôi xử lý các chi tiết hành chính. Từ lên lịch hẹn đến điều phối hậu cần, chúng tôi hợp lý hóa hoạt động hàng ngày của bạn.",
+      "features": {
+        "scheduling": "Quản lý lịch hẹn và lên lịch",
+        "coordination": "Dịch vụ điều phối khách hàng",
+        "logistics": "Hỗ trợ hậu cần và chuỗi cung ứng",
+        "automation": "Tự động hóa quy trình hành chính"
+      }
+    },
+    "talent": {
+      "title": "Thu hút nhân tài",
+      "description": "Tìm người phù hợp hoàn hảo cho đội ngũ của bạn. Chúng tôi kết nối bạn với các ứng viên đủ điều kiện phù hợp với văn hóa công ty và nhu cầu kinh doanh của bạn, tiết kiệm thời gian và nguồn lực.",
+      "features": {
+        "sourcing": "Tìm kiếm và sàng lọc ứng viên",
+        "interview": "Điều phối phỏng vấn",
+        "assessment": "Đánh giá và khớp kỹ năng",
+        "onboarding": "Hỗ trợ hội nhập"
+      }
+    }
+  },
+  "features": {
+    "title": "Tại sao chọn SunPlus Consultation Services?",
+    "subtitle": "Chúng tôi mang lại kết quả quan trọng: tăng hiệu quả, giảm chi phí và tăng tốc tăng trưởng cho doanh nghiệp của bạn.",
+    "fastResults": {
+      "title": "Kết quả nhanh chóng",
+      "description": "Thấy cải thiện đo lường được trong doanh nghiệp của bạn trong vòng 30 ngày. Quy trình đã được chứng minh của chúng tôi mang lại chiến thắng nhanh chóng trong khi xây dựng thành công lâu dài."
+    },
+    "costSavings": {
+      "title": "Tiết kiệm chi phí",
+      "description": "Giảm chi phí hoạt động lên đến 40% thông qua cách tiếp cận tích hợp của chúng tôi. Một đối tác có nghĩa là chi phí chung thấp hơn và phối hợp tốt hơn."
+    },
+    "cpaExpertise": {
+      "title": "Chuyên môn CPA",
+      "description": "Kế toán công chứng xử lý tài chính của bạn một cách chính xác. Duy trì tuân thủ, giảm thiểu gánh nặng thuế và đưa ra quyết định tài chính thông minh hơn."
+    },
+    "dedicatedSupport": {
+      "title": "Hỗ trợ tận tâm",
+      "description": "Nhận một đội ngũ tận tâm hiểu rõ doanh nghiệp của bạn từ trong ra ngoài. Không còn phải giải thích nhu cầu của bạn cho các nhà cung cấp khác nhau mỗi lần."
+    },
+    "growthFocused": {
+      "title": "Tập trung vào tăng trưởng",
+      "description": "Mỗi dịch vụ được thiết kế để mở rộng cùng với doanh nghiệp của bạn. Từ khởi nghiệp đến mở rộng, chúng tôi phát triển cùng bạn."
+    },
+    "secureReliable": {
+      "title": "An toàn và đáng tin cậy",
+      "description": "Bảo mật cấp ngân hàng cho dữ liệu và hệ thống của bạn. Đảm bảo thời gian hoạt động 99,9% đảm bảo doanh nghiệp của bạn không bao giờ ngừng hoạt động."
+    }
+  },
+  "testimonials": {
+    "title": "Được tin tưởng bởi hơn 100 doanh nghiệp đang phát triển",
+    "subtitle": "Chúng tôi tự hào là đối tác ưa thích cho các doanh nghiệp vừa và nhỏ tìm kiếm giải pháp toàn diện.",
+    "items": {
+      "retail": "SunPlus Consultation Services đã chuyển đổi hoàn toàn doanh nghiệp của chúng tôi. Dịch vụ thiết kế và bảo trì trang web của họ mang lại cho chúng tôi sự hiện diện trực tuyến chuyên nghiệp, trong khi lãnh đạo CNTT của họ giúp chúng tôi hiện đại hóa hệ thống. Kế toán CPA đã tiết kiệm cho chúng tôi hàng nghìn đô la. Rất khuyến khích!",
+      "consulting": "Là chủ doanh nghiệp nhỏ, tôi đang gặp khó khăn với tài chính và công nghệ. Cách tiếp cận toàn diện của SunPlus Consultation Services - từ thiết kế trang web đến kế toán và tư vấn - đã cho tôi mọi thứ tôi cần dưới một mái nhà. Thay đổi cuộc chơi!",
+      "manufacturing": "Dịch vụ kế toán tài chính và hành chính rất xuất sắc. Họ xử lý tất cả báo cáo tài chính và tuân thủ của chúng tôi, trong khi dịch vụ tư vấn của họ giúp chúng tôi hợp lý hóa hoạt động. Doanh thu của chúng tôi tăng 35% trong năm đầu tiên.",
+      "tech": "Lãnh đạo CNTT và bảo trì trang web xuất sắc. Họ đã giúp chúng tôi xây dựng sự hiện diện trực tuyến chuyên nghiệp và cung cấp hỗ trợ kỹ thuật liên tục. Chương trình hỗ trợ tài chính thành viên đủ điều kiện là một phần thưởng lớn cho các doanh nghiệp đang phát triển.",
+      "healthcare": "Chuyên nghiệp, đáng tin cậy và cực kỳ hiểu biết. Dịch vụ tư vấn của họ về hỗ trợ hành chính và quản lý đã vô cùng quý giá đối với doanh nghiệp cỡ trung bình của chúng tôi. Họ thực sự hiểu những gì các doanh nghiệp vừa và nhỏ cần để thành công."
+    },
+    "authors": {
+      "retail": "— CHỦ CỬA HÀNG BÁN LẺ",
+      "consulting": "— CÔNG TY TƯ VẤN",
+      "manufacturing": "— CÔNG TY SẢN XUẤT",
+      "tech": "— KHỞI NGHIỆP CÔNG NGHỆ",
+      "healthcare": "— HOẠT ĐỘNG CHĂM SÓC SỨC KHỎE"
+    }
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về dịch vụ của chúng tôi và cách chúng tôi có thể giúp doanh nghiệp của bạn phát triển",
+    "items": {
+      "q1": {
+        "question": "SunPlus Consultation Services Inc. cung cấp những dịch vụ kinh doanh nào?",
+        "answer": "Chúng tôi cung cấp năm dịch vụ cốt lõi: 1) Thiết kế và bảo trì trang web, 2) Lãnh đạo CNTT, 3) Kế toán tài chính và hành chính với chuyên môn CPA, 4) Dịch vụ tư vấn về hỗ trợ hành chính và quản lý, và 5) Hỗ trợ yêu cầu bảo hiểm cho quản lý và đàm phán yêu cầu - tất cả được thiết kế đặc biệt cho các doanh nghiệp vừa và nhỏ."
+      },
+      "q2": {
+        "question": "Dịch vụ thiết kế và bảo trì trang web của bạn hoạt động như thế nào?",
+        "answer": "Dịch vụ thiết kế và bảo trì trang web của chúng tôi bao gồm tạo các trang web hiện đại, đáp ứng chuyển đổi khách truy cập thành khách hàng. Chúng tôi xử lý mọi thứ từ thiết kế ban đầu đến bảo trì liên tục, tối ưu hóa SEO và giám sát hiệu suất để đảm bảo sự hiện diện trực tuyến của bạn thúc đẩy tăng trưởng kinh doanh."
+      },
+      "q3": {
+        "question": "Lãnh đạo CNTT là gì và nó có thể giúp doanh nghiệp của tôi như thế nào?",
+        "answer": "Dịch vụ lãnh đạo CNTT của chúng tôi cung cấp hướng dẫn công nghệ chiến lược và lãnh đạo kỹ thuật cho hoạt động kinh doanh của bạn. Chúng tôi giúp bạn đưa ra quyết định công nghệ sáng suốt, tối ưu hóa hệ thống và lãnh đạo đội ngũ kỹ thuật của bạn một cách hiệu quả để cải thiện hiệu quả và năng suất."
+      },
+      "q4": {
+        "question": "Điều gì làm cho dịch vụ kế toán tài chính và hành chính của bạn khác biệt?",
+        "answer": "Dịch vụ kế toán tài chính và hành chính của chúng tôi được lãnh đạo bởi các kế toán công chứng (CPA) cung cấp quản lý tài chính toàn diện bao gồm kế toán, báo cáo tài chính, chuẩn bị thuế và quản lý tuân thủ. Chúng tôi cũng cung cấp hỗ trợ tài chính chuyên môn cho các thành viên đủ điều kiện để giúp đỡ với các quyết định tài chính chiến lược."
+      },
+      "q5": {
+        "question": "Bạn cung cấp những dịch vụ tư vấn nào?",
+        "answer": "Chúng tôi cung cấp dịch vụ tư vấn về hỗ trợ hành chính và quản lý được thiết kế đặc biệt cho các doanh nghiệp vừa và nhỏ. Điều này bao gồm tối ưu hóa quy trình, hướng dẫn hành chính, tư vấn quản lý và lập kế hoạch chiến lược để giúp hợp lý hóa hoạt động và tối đa hóa lợi nhuận."
+      },
+      "q6": {
+        "question": "Bạn chỉ làm việc với các doanh nghiệp vừa và nhỏ?",
+        "answer": "Có, chúng tôi chuyên phục vụ các doanh nghiệp vừa và nhỏ. Dịch vụ của chúng tôi được thiết kế đặc biệt để đáp ứng nhu cầu độc đáo, thách thức và cơ hội tăng trưởng mà các doanh nghiệp này phải đối mặt. Chúng tôi hiểu các yêu cầu và hạn chế cụ thể của các hoạt động nhỏ hơn."
+      },
+      "q7": {
+        "question": "Tôi có thể nhận nhiều dịch vụ cùng một lúc không?",
+        "answer": "Hoàn toàn có thể! Chúng tôi khuyến khích các doanh nghiệp tận dụng cách tiếp cận giải pháp hoàn chỉnh của chúng tôi. Nhiều khách hàng sử dụng thiết kế và bảo trì trang web, lãnh đạo CNTT, kế toán tài chính, dịch vụ tư vấn và hỗ trợ yêu cầu bảo hiểm của chúng tôi cùng nhau để có hỗ trợ kinh doanh toàn diện. Cách tiếp cận tích hợp này thường mang lại kết quả tốt hơn và tiết kiệm chi phí."
+      },
+      "q8": {
+        "question": "Hỗ trợ tài chính cho thành viên đủ điều kiện là gì?",
+        "answer": "Chương trình hỗ trợ tài chính cho thành viên đủ điều kiện của chúng tôi cung cấp hướng dẫn và hỗ trợ tài chính chuyên môn cho các doanh nghiệp đủ điều kiện. Điều này bao gồm lập kế hoạch tài chính nâng cao, tư vấn tài chính chiến lược và hỗ trợ liên tục để giúp các thành viên đủ điều kiện đưa ra quyết định tài chính sáng suốt và tối ưu hóa tài chính kinh doanh của họ."
+      }
+    },
+    "stillHaveQuestions": "Vẫn còn câu hỏi?",
+    "cantFind": "Không thể tìm thấy câu trả lời bạn đang tìm kiếm? Đội ngũ của chúng tôi sẵn sàng giúp đỡ.",
+    "contactCta": "Liên hệ với chúng tôi ngay hôm nay"
+  },
+  "cta": {
+    "title": "Sẵn sàng phát triển doanh nghiệp của bạn?",
+    "description": "Từ thiết kế và bảo trì trang web đến lãnh đạo CNTT, kế toán tài chính với chuyên môn CPA, dịch vụ tư vấn và hỗ trợ yêu cầu bảo hiểm, chúng tôi cung cấp mọi thứ doanh nghiệp vừa và nhỏ của bạn cần để thành công. Hãy thảo luận về dự án của bạn ngay hôm nay.",
+    "primaryCta": "Bắt đầu ngay hôm nay",
+    "secondaryCta": "Xem dịch vụ của chúng tôi",
+    "stats": {
+      "clients": "Khách hàng hài lòng",
+      "projects": "Dự án hoàn thành",
+      "experience": "Năm kinh nghiệm"
+    }
+  },
+  "contact": {
+    "title": "Hãy cùng phát triển doanh nghiệp của bạn",
+    "subtitle": "Sẵn sàng đưa doanh nghiệp của bạn lên cấp độ tiếp theo? Từ thiết kế và bảo trì trang web đến lãnh đạo CNTT, kế toán tài chính với chuyên môn CPA, dịch vụ tư vấn và hỗ trợ yêu cầu bảo hiểm, chúng tôi ở đây để giúp bạn thành công.",
+    "emailUs": "Gửi email cho chúng tôi",
+    "visitUs": "Ghé thăm chúng tôi",
+    "address": "501-998 Boul. Saint-Laurent",
+    "businessHours": "Giờ làm việc",
+    "hours": {
+      "weekdays": "Thứ Hai - Thứ Sáu: 9:00 SA - 6:00 CH",
+      "saturday": "Thứ Bảy: 10:00 SA - 4:00 CH",
+      "sunday": "Chủ Nhật: Đóng cửa"
+    },
+    "form": {
+      "title": "Gửi tin nhắn cho chúng tôi",
+      "subtitle": "Chúng tôi sẽ phản hồi trong vòng 24 giờ",
+      "firstName": "Tên",
+      "lastName": "Họ",
+      "email": "Địa chỉ email",
+      "phone": "Số điện thoại",
+      "subject": "Chủ đề",
+      "message": "Tin nhắn",
+      "submit": "Gửi tin nhắn",
+      "sending": "Đang gửi tin nhắn...",
+      "success": "Cảm ơn bạn! Tin nhắn của bạn đã được gửi thành công.",
+      "error": "Xin lỗi, đã xảy ra lỗi khi gửi tin nhắn của bạn. Vui lòng thử lại.",
+      "placeholders": {
+        "firstName": "Nguyễn",
+        "lastName": "Văn A",
+        "email": "nguyen@example.com",
+        "phone": "(555) 123-4567",
+        "subject": "Chúng tôi có thể giúp gì cho bạn?",
+        "message": "Hãy cho chúng tôi biết về dự án của bạn và cách chúng tôi có thể giúp đỡ..."
+      }
+    }
+  },
+  "footer": {
+    "description": "Giải pháp kinh doanh hoàn chỉnh cho các doanh nghiệp vừa và nhỏ. Chúng tôi cung cấp kế toán, dịch vụ thuế, tư vấn tài chính, phát triển kinh doanh và hỗ trợ hành chính bảo hiểm để giúp công ty của bạn phát triển và thành công.",
+    "quickLinks": "Liên kết nhanh",
+    "businessHours": "Giờ làm việc",
+    "hours": {
+      "weekdays": "Thứ Hai - Thứ Sáu",
+      "weekdaysTime": "9:00 SA - 6:00 CH",
+      "saturday": "Thứ Bảy",
+      "saturdayTime": "10:00 SA - 4:00 CH",
+      "sunday": "Chủ Nhật",
+      "sundayTime": "Đóng cửa"
+    },
+    "copyright": "Bảo lưu mọi quyền.",
+    "privacyPolicy": "Chính sách bảo mật",
+    "termsOfService": "Điều khoản dịch vụ"
+  },
+  "seo": {
+    "title": "SunPlus Consultation Services - 9 Giải Pháp Kinh Doanh Chuyên Nghiệp cho Doanh Nghiệp Vừa và Nhỏ",
+    "description": "Giải pháp kinh doanh hoàn chỉnh: thiết kế web, lãnh đạo CNTT, kế toán CPA, tư vấn, tuân thủ y tế, yêu cầu bảo hiểm, kế hoạch tài chính, hỗ trợ hành chính và thu hút nhân tài. Được tin tưởng bởi hơn 100 doanh nghiệp đang phát triển.",
+    "keywords": "giải pháp kinh doanh, dịch vụ tư vấn, thiết kế web, lãnh đạo CNTT, kế toán CPA, tư vấn kinh doanh, tuân thủ y tế, yêu cầu bảo hiểm, kế hoạch tài chính, hỗ trợ hành chính, thu hút nhân tài, dịch vụ doanh nghiệp nhỏ, hỗ trợ doanh nghiệp Việt tại Canada",
+    "ogTitle": "SunPlus Consultation Services - Đối Tác Kinh Doanh Hoàn Chỉnh Của Bạn",
+    "ogDescription": "9 dịch vụ chuyên môn tại một nơi: thiết kế web, lãnh đạo CNTT, kế toán CPA, tư vấn, tuân thủ y tế, yêu cầu bảo hiểm, kế hoạch tài chính, hỗ trợ hành chính và thu hút nhân tài.",
+    "locale": "vi_VN",
+    "siteName": "SunPlus Consultation Services Inc."
+  }
+}

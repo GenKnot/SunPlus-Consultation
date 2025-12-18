@@ -2,10 +2,13 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import Button from './Button';
 import { BRAND_COLORS } from '../lib/colors';
 
 export default function AboutSection() {
+  const t = useTranslations('about');
+  
   return (
     <div id="about" className="bg-white py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,11 +26,10 @@ export default function AboutSection() {
           <div className="py-4 lg:py-6 w-[95%] mx-auto lg:w-full lg:mx-0 rounded-b-2xl sm:rounded-b-3xl" style={{backgroundColor: BRAND_COLORS.primary}}>
             <div className="px-4 sm:px-6 lg:px-8">
               <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white leading-tight font-serif mb-3">
-                Trusted by 100+ Growing Businesses
+                {t('title')}
               </h2>
               <p className="text-sm sm:text-base text-white/90 leading-relaxed mb-4">
-                We understand the unique challenges small to medium-sized businesses face. 
-                Our integrated approach saves you time, reduces costs, and accelerates growth.
+                {t('description')}
               </p>
               <Button 
                 href="#contact" 
@@ -43,7 +45,7 @@ export default function AboutSection() {
                   e.currentTarget.style.color = 'white';
                 }}
               >
-                Get started now
+                {t('cta')}
               </Button>
             </div>
           </div>

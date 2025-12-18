@@ -10,10 +10,10 @@ export const COMPANY_INFO = {
 };
 
 export const NAVIGATION_LINKS = [
-  { href: '#home', label: 'Home' },
-  { href: '#services', label: 'Services' },
-  { href: '#about', label: 'About' },
-  { href: '#testimonials', label: 'Testimonials' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#contact', label: 'Contact' }
+  { href: '#home', key: 'home' },
+  { href: '#services', key: 'services' },
+  { href: '#about', key: 'about' },
+  { href: '#testimonials', key: 'testimonials' },
+  { href: '#faq', key: 'faq' },
+  { href: '#contact', key: 'contact' }
 ];

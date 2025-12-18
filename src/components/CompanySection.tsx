@@ -2,9 +2,12 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { BRAND_COLORS } from '../lib/colors';
 
 export default function CompanySection() {
+  const t = useTranslations('company');
+  
   return (
     <div className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -31,10 +34,10 @@ export default function CompanySection() {
           <div className="order-1 lg:order-2">
             <div className="max-w-lg">
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                Your Business Partner
+                {t('title')}
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Complete business solutions for small to medium-sized businesses.
+                {t('subtitle')}
               </p>
               
               <div className="space-y-6 mb-8">
@@ -45,9 +48,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Technology Solutions</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('tech.title')}</h3>
                     <p className="text-gray-600">
-                      Professional web design, IT leadership, and strategic technology guidance.
+                      {t('tech.description')}
                     </p>
                   </div>
                 </div>
@@ -59,9 +62,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Financial & Administrative Services</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('financial.title')}</h3>
                     <p className="text-gray-600">
-                      CPA-certified bookkeeping, consultation, and administrative support.
+                      {t('financial.description')}
                     </p>
                   </div>
                 </div>
@@ -73,9 +76,9 @@ export default function CompanySection() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-2">Specialized Compliance & Claims</h3>
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{t('compliance.title')}</h3>
                     <p className="text-gray-600">
-                      Healthcare regulatory compliance and insurance claims support.
+                      {t('compliance.description')}
                     </p>
                   </div>
                 </div>
@@ -84,15 +87,15 @@ export default function CompanySection() {
               <div className="grid grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>100+</div>
-                  <div className="text-sm text-gray-600">Projects Completed</div>
+                  <div className="text-sm text-gray-600">{t('stats.projects')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>50+</div>
-                  <div className="text-sm text-gray-600">Happy Clients</div>
+                  <div className="text-sm text-gray-600">{t('stats.clients')}</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold mb-2" style={{color: BRAND_COLORS.secondary}}>5+</div>
-                  <div className="text-sm text-gray-600">Years Experience</div>
+                  <div className="text-sm text-gray-600">{t('stats.experience')}</div>
                 </div>
               </div>
               
@@ -107,7 +110,7 @@ export default function CompanySection() {
                   e.currentTarget.style.backgroundColor = BRAND_COLORS.secondary;
                 }}
               >
-                Work With Us
+                {t('cta')}
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

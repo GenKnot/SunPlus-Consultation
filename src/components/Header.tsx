@@ -2,11 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import Button from './Button';
+import LanguageSwitcher from './LanguageSwitcher';
 import { BRAND_COLORS } from '../lib/colors';
 
 interface NavItem {
-  label: string;
+  key: string;
   href: string;
   dropdown?: {
     label: string;
@@ -14,18 +16,18 @@ interface NavItem {
   }[];
 }
 
-const navItems: NavItem[] = [
-  { label: 'Home', href: '#home' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' }
-];
-
 export default function Header() {
+  const t = useTranslations('header');
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navItems: NavItem[] = [
+    { key: 'home', href: '#home' },
+    { key: 'services', href: '#services' },
+    { key: 'about', href: '#about' },
+    { key: 'faq', href: '#faq' }
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -69,11 +71,11 @@ export default function Header() {
           <div className="hidden lg:block">
             <div className="ml-10 flex items-center space-x-8">
               {navItems.map((item) => (
-                <div key={item.label} className="relative">
+                <div key={item.key} className="relative">
                   {item.dropdown ? (
                     <div
                       className="relative"
-                      onMouseEnter={() => setActiveDropdown(item.label)}
+                      onMouseEnter={() => setActiveDropdown(item.key)}
                       onMouseLeave={() => setActiveDropdown(null)}
                     >
                       <button className="text-gray-700 px-3 py-2 text-sm font-medium transition-colors duration-200 flex items-center"
@@ -83,13 +85,13 @@ export default function Header() {
                               onMouseLeave={(e) => {
                                 e.currentTarget.style.color = '#374151';
                               }}>
-                        {item.label}
+                        {t(item.key)}
                         <svg className="ml-1 w-4 h-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                         </svg>
                       </button>
                       
-                      {activeDropdown === item.label && (
+                      {activeDropdown === item.key && (
                         <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-lg border border-gray-100 py-2 animate-in slide-in-from-top-2 duration-200">
                           {item.dropdown.map((dropdownItem) => (
                             <a
@@ -122,7 +124,7 @@ export default function Header() {
                         e.currentTarget.style.color = '#374151';
                       }}
                     >
-                      {item.label}
+                      {t(item.key)}
                     </a>
                   )}
                 </div>
@@ -130,9 +132,10 @@ export default function Header() {
             </div>
           </div>
 
-          <div className="hidden lg:block">
+          <div className="hidden lg:flex items-center space-x-4">
+            <LanguageSwitcher />
             <Button href="#contact" size="sm" className="text-white">
-              Get Started
+              {t('getStarted')}
             </Button>
           </div>
 
@@ -158,11 +161,11 @@ export default function Header() {
           <div className="lg:hidden bg-white border-t border-gray-200 animate-in slide-in-from-top-2 duration-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
-                <div key={item.label}>
+                <div key={item.key}>
                   {item.dropdown ? (
                     <div>
                       <button
-                        onClick={() => handleDropdownToggle(item.label)}
+                        onClick={() => handleDropdownToggle(item.key)}
                         className="w-full text-left px-3 py-2 text-base font-medium text-gray-700 rounded-md transition-colors duration-200 flex items-center justify-between"
                         onMouseEnter={(e) => {
                           e.currentTarget.style.color = BRAND_COLORS.secondary;
@@ -173,12 +176,12 @@ export default function Header() {
                           e.currentTarget.style.backgroundColor = 'transparent';
                         }}
                       >
-                        {item.label}
-                        <svg className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.label ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {t(item.key)}
+                        <svg className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === item.key ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                         </svg>
                       </button>
-                      {activeDropdown === item.label && (
+                      {activeDropdown === item.key && (
                         <div className="pl-4 space-y-1 animate-in slide-in-from-top-2 duration-200">
                           {item.dropdown.map((dropdownItem) => (
                             <a
@@ -213,14 +216,18 @@ export default function Header() {
                         e.currentTarget.style.backgroundColor = 'transparent';
                       }}
                     >
-                      {item.label}
+                      {t(item.key)}
                     </a>
                   )}
                 </div>
               ))}
-              <div className="pt-4">
+              <div className="pt-4 space-y-3 px-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-medium text-gray-700">Language</span>
+                  <LanguageSwitcher />
+                </div>
                 <Button href="#contact" size="sm" className="w-full text-white">
-                  Get Started
+                  {t('getStarted')}
                 </Button>
               </div>
             </div>

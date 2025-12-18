@@ -1,6 +1,4 @@
-# robots.txt for SunPlus Consultation Services Inc.
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://sunplusfinance.com/sitemap.xml
+Sitemap: https://sunplusconsultations.com/sitemap.xml

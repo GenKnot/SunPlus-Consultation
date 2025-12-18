@@ -1,15 +1,17 @@
 'use client';
 
 import React, { useState, useEffect, useCallback } from 'react';
+import { useTranslations } from 'next-intl';
 import { BRAND_COLORS } from '../lib/colors';
 
 interface TestimonialCardProps {
-  text: string;
-  author: string;
+  textKey: string;
+  authorKey: string;
   rating?: number;
 }
 
-function TestimonialCard({ text, author, rating = 5 }: TestimonialCardProps) {
+function TestimonialCard({ textKey, authorKey, rating = 5 }: TestimonialCardProps) {
+  const t = useTranslations('testimonials');
   return (
     <div className="bg-white rounded-lg p-6 shadow-lg h-full flex flex-col">
       <div className="flex text-yellow-400 mb-4">
@@ -19,41 +21,42 @@ function TestimonialCard({ text, author, rating = 5 }: TestimonialCardProps) {
           </svg>
         ))}
       </div>
-      <p className="text-gray-700 text-sm leading-relaxed mb-4 flex-grow">{text}</p>
-      <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">{author}</p>
+      <p className="text-gray-700 text-sm leading-relaxed mb-4 flex-grow">{t(`items.${textKey}`)}</p>
+      <p className="text-xs text-gray-500 uppercase tracking-wide font-medium">{t(`authors.${authorKey}`)}</p>
     </div>
   );
 }
 
 export default function TestimonialsSection() {
+  const t = useTranslations('testimonials');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   
   const testimonials = [
     {
       id: 1,
-      text: "SunPlus Consultation Services transformed our business completely. Their website design and maintenance services gave us a professional online presence, while their IT leadership helped us modernize our systems. The CPA bookkeeping saved us thousands. Highly recommend!",
-      author: "— RETAIL STORE OWNER"
+      textKey: "retail",
+      authorKey: "retail"
     },
     {
       id: 2,
-      text: "As a small business owner, I was struggling with finances and technology. SunPlus Consultation Services&apos;s comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
-      author: "— CONSULTING FIRM"
+      textKey: "consulting",
+      authorKey: "consulting"
     },
     {
       id: 3,
-      text: "The finance bookkeeping and administrative services are exceptional. They handle all our financial reporting and compliance, while their consultation services helped us streamline operations. Our revenue increased 35% in the first year.",
-      author: "— MANUFACTURING COMPANY"
+      textKey: "manufacturing",
+      authorKey: "manufacturing"
     },
     {
       id: 4,
-      text: "Outstanding IT leadership and website maintenance. They helped us build a professional online presence and provided ongoing technical support. The qualified member financial support program is a huge bonus for growing businesses.",
-      author: "— TECH STARTUP"
+      textKey: "tech",
+      authorKey: "tech"
     },
     {
       id: 5,
-      text: "Professional, reliable, and incredibly knowledgeable. Their consultation services for administrative and management support have been invaluable for our medium-sized business. They truly understand what small to medium businesses need to succeed.",
-      author: "— HEALTHCARE PRACTICE"
+      textKey: "healthcare",
+      authorKey: "healthcare"
     }
   ];
 
@@ -100,10 +103,10 @@ export default function TestimonialsSection() {
         <div className="grid lg:grid-cols-4 gap-12 items-start">
           <div className="lg:col-span-1">
             <h2 className="text-4xl font-bold text-white mb-6 leading-tight">
-              Trusted by 100+ Growing Businesses
+              {t('title')}
             </h2>
             <p className="text-white/90 text-lg">
-              We&apos;re proud to be the go-to partner for small to medium-sized businesses seeking comprehensive solutions.
+              {t('subtitle')}
             </p>
           </div>
           
@@ -119,8 +122,8 @@ export default function TestimonialsSection() {
                   className="transform transition-all duration-300 hover:scale-105"
                 >
                   <TestimonialCard
-                    text={testimonial.text}
-                    author={testimonial.author}
+                    textKey={testimonial.textKey}
+                    authorKey={testimonial.authorKey}
                   />
                 </div>
               ))}

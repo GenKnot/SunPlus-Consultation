@@ -1,0 +1,295 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Transform Your Business with Expert Solutions",
+    "description": "Stop juggling multiple vendors. Get everything your business needs from one trusted partner: stunning websites, strategic IT guidance, CPA-certified bookkeeping, expert consultation, healthcare compliance, and insurance claims support.",
+    "cta": "Get started now"
+  },
+  "about": {
+    "title": "Trusted by 100+ Growing Businesses",
+    "description": "We understand the unique challenges small to medium-sized businesses face. Our integrated approach saves you time, reduces costs, and accelerates growth.",
+    "cta": "Get started now"
+  },
+  "company": {
+    "title": "Your Business Partner",
+    "subtitle": "Complete business solutions for small to medium-sized businesses.",
+    "tech": {
+      "title": "Technology Solutions",
+      "description": "Professional web design, IT leadership, and strategic technology guidance."
+    },
+    "financial": {
+      "title": "Financial & Administrative Services",
+      "description": "CPA-certified bookkeeping, consultation, and administrative support."
+    },
+    "compliance": {
+      "title": "Specialized Compliance & Claims",
+      "description": "Healthcare regulatory compliance and insurance claims support."
+    },
+    "stats": {
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "experience": "Years Experience"
+    },
+    "cta": "Work With Us"
+  },
+  "services": {
+    "title": "What We Do Best",
+    "subtitle": "Nine specialized services that work together to transform your business operations and drive growth",
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Convert more visitors into customers with websites that load fast, look professional, and work perfectly on all devices.",
+      "features": {
+        "responsive": "Mobile-first responsive design",
+        "seo": "SEO optimization for Google ranking",
+        "monitoring": "24/7 performance monitoring",
+        "security": "Monthly security updates"
+      }
+    },
+    "itLeadership": {
+      "title": "IT Leadership",
+      "description": "Make smarter technology decisions and lead your team with confidence. We guide your IT strategy from planning to execution.",
+      "features": {
+        "roadmap": "Technology roadmap development",
+        "training": "Team training & mentoring",
+        "integration": "System integration planning",
+        "vendor": "Vendor management"
+      }
+    },
+    "bookkeeping": {
+      "title": "Bookkeeping",
+      "description": "Keep your finances organized and compliant with CPA-certified bookkeeping. Get qualified member benefits for advanced financial planning.",
+      "features": {
+        "reports": "Monthly financial reports",
+        "tax": "Tax preparation & filing",
+        "perks": "Qualified member perks",
+        "audit": "Audit support"
+      }
+    },
+    "consultation": {
+      "title": "Consultation",
+      "description": "Streamline your operations and boost efficiency with expert guidance on administrative processes and management best practices.",
+      "features": {
+        "audits": "Process optimization audits",
+        "training": "Management training programs",
+        "setup": "Administrative system setup",
+        "strategy": "Growth strategy planning"
+      }
+    },
+    "claims": {
+      "title": "Claims Support",
+      "description": "Navigate insurance claims with confidence. We handle the paperwork, follow-ups, and negotiations to maximize your coverage benefits.",
+      "features": {
+        "documentation": "Claim documentation & filing",
+        "liaison": "Insurance company liaison",
+        "negotiation": "Settlement negotiation",
+        "resolution": "Appeal & dispute resolution"
+      }
+    },
+    "healthcare": {
+      "title": "Healthcare Compliance",
+      "description": "Launch and grow your healthcare practice with confidence. Expert guidance on regulatory requirements, clinic operations, and Health Canada compliance.",
+      "features": {
+        "regulatory": "Health Canada regulatory compliance",
+        "licensing": "Clinic setup & licensing support",
+        "standards": "Operational standards implementation",
+        "consulting": "Practice growth consulting"
+      }
+    },
+    "financial": {
+      "title": "Financial Planning",
+      "description": "Plan for long-term success with comprehensive financial strategies tailored to your business goals. From budgeting to investment planning, we help you make informed decisions.",
+      "features": {
+        "budget": "Strategic budget planning",
+        "investment": "Investment strategy consulting",
+        "cashflow": "Cash flow forecasting",
+        "retirement": "Retirement & succession planning"
+      }
+    },
+    "admin": {
+      "title": "Admin Support",
+      "description": "Focus on your core business while we handle the administrative details. From appointment scheduling to logistics coordination, we streamline your daily operations.",
+      "features": {
+        "scheduling": "Appointment & scheduling management",
+        "coordination": "Client coordination services",
+        "logistics": "Logistics & supply chain support",
+        "automation": "Administrative process automation"
+      }
+    },
+    "talent": {
+      "title": "Talent Acquisition",
+      "description": "Find the perfect fit for your team. We connect you with qualified candidates who match your company culture and business needs, saving you time and resources.",
+      "features": {
+        "sourcing": "Candidate sourcing & screening",
+        "interview": "Interview coordination",
+        "assessment": "Skills assessment & matching",
+        "onboarding": "Onboarding support"
+      }
+    }
+  },
+  "features": {
+    "title": "Why Choose SunPlus Consultation Services?",
+    "subtitle": "We deliver results that matter: increased efficiency, reduced costs, and accelerated growth for your business.",
+    "fastResults": {
+      "title": "Fast Results",
+      "description": "See measurable improvements in your business within 30 days. Our proven processes deliver quick wins while building long-term success."
+    },
+    "costSavings": {
+      "title": "Cost Savings",
+      "description": "Reduce operational costs by up to 40% through our integrated approach. One partner means lower overhead and better coordination."
+    },
+    "cpaExpertise": {
+      "title": "CPA Expertise",
+      "description": "Certified public accountants handle your finances with precision. Stay compliant, minimize tax burden, and make smarter financial decisions."
+    },
+    "dedicatedSupport": {
+      "title": "Dedicated Support",
+      "description": "Get a dedicated team that knows your business inside and out. No more explaining your needs to different vendors every time."
+    },
+    "growthFocused": {
+      "title": "Growth Focused",
+      "description": "Every service is designed to scale with your business. From startup to expansion, we grow alongside you."
+    },
+    "secureReliable": {
+      "title": "Secure & Reliable",
+      "description": "Bank-level security for your data and systems. 99.9% uptime guarantee ensures your business never stops running."
+    }
+  },
+  "testimonials": {
+    "title": "Trusted by 100+ Growing Businesses",
+    "subtitle": "We're proud to be the go-to partner for small to medium-sized businesses seeking comprehensive solutions.",
+    "items": {
+      "retail": "SunPlus Consultation Services transformed our business completely. Their website design and maintenance services gave us a professional online presence, while their IT leadership helped us modernize our systems. The CPA bookkeeping saved us thousands. Highly recommend!",
+      "consulting": "As a small business owner, I was struggling with finances and technology. SunPlus Consultation Services's comprehensive approach - from website design to bookkeeping and consultation - gave me everything I needed under one roof. Game changer!",
+      "manufacturing": "The finance bookkeeping and administrative services are exceptional. They handle all our financial reporting and compliance, while their consultation services helped us streamline operations. Our revenue increased 35% in the first year.",
+      "tech": "Outstanding IT leadership and website maintenance. They helped us build a professional online presence and provided ongoing technical support. The qualified member financial support program is a huge bonus for growing businesses.",
+      "healthcare": "Professional, reliable, and incredibly knowledgeable. Their consultation services for administrative and management support have been invaluable for our medium-sized business. They truly understand what small to medium businesses need to succeed."
+    },
+    "authors": {
+      "retail": "— RETAIL STORE OWNER",
+      "consulting": "— CONSULTING FIRM",
+      "manufacturing": "— MANUFACTURING COMPANY",
+      "tech": "— TECH STARTUP",
+      "healthcare": "— HEALTHCARE PRACTICE"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services and how we can help your business grow",
+    "items": {
+      "q1": {
+        "question": "What business services does SunPlus Consultation Services Inc. provide?",
+        "answer": "We offer five core services: 1) Website design and maintenance, 2) IT leadership, 3) Finance bookkeeping and administrative with CPA expertise, 4) Consultation services for administrative and management support, and 5) Insurance claims support for claims management and negotiation - all specifically designed for small to medium-sized businesses."
+      },
+      "q2": {
+        "question": "How does your website design and maintenance service work?",
+        "answer": "Our website design and maintenance service includes creating modern, responsive websites that convert visitors into customers. We handle everything from initial design to ongoing maintenance, SEO optimization, and performance monitoring to ensure your online presence drives business growth."
+      },
+      "q3": {
+        "question": "What is IT leadership and how can it help my business?",
+        "answer": "Our IT leadership service provides strategic technology guidance and technical leadership for your business operations. We help you make informed technology decisions, optimize your systems, and lead your technical team effectively to improve efficiency and productivity."
+      },
+      "q4": {
+        "question": "What makes your finance bookkeeping and administrative services different?",
+        "answer": "Our finance bookkeeping and administrative services are led by certified public accountants (CPAs) who provide comprehensive financial management including bookkeeping, financial reporting, tax preparation, and compliance management. We also offer specialized financial support for qualified members to help with strategic financial decisions."
+      },
+      "q5": {
+        "question": "What consultation services do you offer?",
+        "answer": "We provide consultation services for administrative and management support specifically designed for small to medium-sized businesses. This includes process optimization, administrative guidance, management consulting, and strategic planning to help streamline operations and maximize profitability."
+      },
+      "q6": {
+        "question": "Do you work with small and medium-sized businesses only?",
+        "answer": "Yes, we specialize in serving small to medium-sized businesses. Our services are specifically tailored to meet the unique needs, challenges, and growth opportunities that these businesses face. We understand the specific requirements and constraints of smaller operations."
+      },
+      "q7": {
+        "question": "Can I get multiple services together?",
+        "answer": "Absolutely! We encourage businesses to take advantage of our complete solution approach. Many clients use our website design and maintenance, IT leadership, finance bookkeeping, consultation services, and insurance claims support together for comprehensive business support. This integrated approach often provides better results and cost savings."
+      },
+      "q8": {
+        "question": "What is the qualified member financial support?",
+        "answer": "Our qualified member financial support program provides specialized financial guidance and assistance to eligible businesses. This includes advanced financial planning, strategic financial advice, and ongoing support to help qualified members make informed financial decisions and optimize their business finances."
+      }
+    },
+    "stillHaveQuestions": "Still have questions?",
+    "cantFind": "Can't find the answer you're looking for? Our team is here to help.",
+    "contactCta": "Contact Us Today"
+  },
+  "cta": {
+    "title": "Ready to Grow Your Business?",
+    "description": "From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance claims support, we provide everything your small to medium-sized business needs to succeed. Let's discuss your project today.",
+    "primaryCta": "Get Started Today",
+    "secondaryCta": "View Our Services",
+    "stats": {
+      "clients": "Happy Clients",
+      "projects": "Projects Completed",
+      "experience": "Years Experience"
+    }
+  },
+  "contact": {
+    "title": "Let's Grow Your Business Together",
+    "subtitle": "Ready to take your business to the next level? From website design and maintenance to IT leadership, finance bookkeeping with CPA expertise, consultation services, and insurance claims support, we're here to help you succeed.",
+    "emailUs": "Email Us",
+    "visitUs": "Visit Us",
+    "address": "501-998 Boul. Saint-Laurent",
+    "businessHours": "Business Hours",
+    "hours": {
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "saturday": "Saturday: 10:00 AM - 4:00 PM",
+      "sunday": "Sunday: Closed"
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "We'll get back to you within 24 hours",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending Message...",
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "Sorry, there was an error sending your message. Please try again.",
+      "placeholders": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "john@example.com",
+        "phone": "(555) 123-4567",
+        "subject": "What can we help you with?",
+        "message": "Tell us about your project and how we can help..."
+      }
+    }
+  },
+  "footer": {
+    "description": "Complete business solutions for small to medium-sized businesses. We provide accounting, tax services, financial consulting, business development, and insurance administrative support to help your company grow and succeed.",
+    "quickLinks": "Quick Links",
+    "businessHours": "Business Hours",
+    "hours": {
+      "weekdays": "Monday - Friday",
+      "weekdaysTime": "9:00 AM - 6:00 PM",
+      "saturday": "Saturday",
+      "saturdayTime": "10:00 AM - 4:00 PM",
+      "sunday": "Sunday",
+      "sundayTime": "Closed"
+    },
+    "copyright": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "seo": {
+    "title": "SunPlus Consultation Services - 9 Expert Business Solutions for SMBs",
+    "description": "Complete business solutions: web design, IT leadership, CPA bookkeeping, consultation, healthcare compliance, insurance claims, financial planning, admin support, and talent acquisition. Trusted by 100+ growing businesses.",
+    "keywords": "business solutions, consultation services, website design, IT leadership, CPA bookkeeping, business consulting, healthcare compliance, insurance claims, financial planning, admin support, talent acquisition, small business services, SMB solutions",
+    "ogTitle": "SunPlus Consultation Services - Your Complete Business Partner",
+    "ogDescription": "9 specialized services under one roof: web design, IT leadership, CPA bookkeeping, consultation, healthcare compliance, insurance claims, financial planning, admin support, and talent acquisition.",
+    "locale": "en_US",
+    "siteName": "SunPlus Consultation Services Inc."
+  }
+}

@@ -1,44 +1,30 @@
 import { MetadataRoute } from 'next';
+import { routing } from '@/i18n/routing';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://sunplusfinance.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://sunplusconsultations.com';
   
-  return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/#services`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/#about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/#testimonials`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/#faq`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/#contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-  ];
+  // Generate sitemap entries for all locales
+  const localeEntries = routing.locales.flatMap((locale) => {
+    const localeUrl = locale === 'zh' ? baseUrl : `${baseUrl}/${locale}`;
+    
+    return [
+      {
+        url: localeUrl,
+        lastModified: new Date(),
+        changeFrequency: 'weekly' as const,
+        priority: 1,
+        alternates: {
+          languages: Object.fromEntries(
+            routing.locales.map((l) => [
+              l,
+              l === 'zh' ? baseUrl : `${baseUrl}/${l}`,
+            ])
+          ),
+        },
+      },
+    ];
+  });
+
+  return localeEntries;
 }
